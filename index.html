@@ -1,0 +1,1189 @@
+<!doctype html>
+<html lang="fr" data-lights="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Caravane, salle de fête à privatiser à Bétheny, près de Reims</title>
+<meta name="description" content="La Caravane : guinguette atypique à Bétheny (Reims). Jusqu'à 200 personnes debout, 150 assises. Privatisation complète ou espace dédié, DJ, traiteur, parking gratuit. Devis personnalisé.">
+<meta name="theme-color" content="#17123A">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="La Caravane, salle de fête à privatiser près de Reims">
+<meta property="og:description" content="Anniversaire, repas d'entreprise, EVJF, mariage : privatisez La Caravane ou réservez votre espace. Jusqu'à 200 personnes, parking gratuit.">
+<meta property="og:image" content="salle-caravane.jpg">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+/* Photo introuvable : le cadre garde sa forme et affiche un fond de remplacement */
+document.addEventListener('error', function (e) {
+  var t = e.target;
+  if (t && t.tagName === 'IMG') { var f = t.closest('[data-photo]'); if (f) f.classList.add('is-missing'); }
+}, true);
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EventVenue",
+  "name": "La Caravane",
+  "url": "https://lacaravane-reims.fr/",
+  "telephone": "+33326075910",
+  "email": "la.caravane@orange.fr",
+  "maximumAttendeeCapacity": 200,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "17 rue des Docks Rémois",
+    "postalCode": "51450",
+    "addressLocality": "Bétheny",
+    "addressCountry": "FR"
+  },
+  "sameAs": ["https://www.facebook.com/lacaravane.restaurant", "https://www.instagram.com/lacaravane51/"]
+}
+</script>
+<style>
+/* ---------- Jetons ---------- */
+:root{
+  --night:#17123A; --night-2:#201956; --night-3:#2D2470; --line:rgba(250,235,211,.16);
+  --cream:#FAEBD3; --cream-dim:rgba(250,235,211,.72);
+  --bulb:#FFC83D; --coral:#FF7D73; --leaf:#7ED94B; --lagoon:#58C4F0;
+  --ink:#1D1338; --ink-soft:#5B4F78; --paper:#FFF7E8;
+  --display:"Caprasimo","Cooper Black",Georgia,serif;
+  --text:"Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --wrap:1200px; --gutter:clamp(18px,4vw,48px);
+  --r-s:10px; --r-m:20px; --r-l:36px;
+  --glow:1;
+}
+html[data-lights="off"]{ --night:#0A0819; --night-2:#110D2A; --night-3:#1A1540; --glow:0; --cream-dim:rgba(250,235,211,.6); }
+
+/* ---------- Base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--night);color:var(--cream);font:400 1.0625rem/1.6 var(--text);transition:background-color .7s ease;overflow-x:hidden}
+img{display:block;max-width:100%}
+figure{margin:0}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.05;margin:0;text-wrap:balance}
+h2{font-size:clamp(2rem,4.6vw,3.5rem)}
+h3{font-size:clamp(1.35rem,2.2vw,1.75rem)}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--bulb);outline-offset:3px;border-radius:6px}
+.wrap{width:min(100% - 2*var(--gutter),var(--wrap));margin-inline:auto}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.skip{position:fixed;left:12px;top:-60px;z-index:100;background:var(--bulb);color:var(--ink);padding:10px 16px;border-radius:var(--r-s);font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+.band{padding-block:clamp(72px,10vw,136px)}
+.band-head{max-width:46rem;margin-bottom:clamp(32px,5vw,56px)}
+.band-head p{margin-top:18px;color:var(--cream-dim);font-size:1.125rem;max-width:38rem}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;border:2px solid transparent;font-weight:700;text-decoration:none;transition:transform .18s ease,background-color .18s ease,color .18s ease,border-color .18s ease}
+.btn:active{transform:scale(.97)}
+.btn-main{background:var(--bulb);color:var(--ink)}
+.btn-main:hover{background:#FFD768}
+.btn-ghost{border-color:var(--line);color:var(--cream)}
+.btn-ghost:hover{border-color:var(--cream)}
+.btn-ink{background:var(--ink);color:var(--paper)}
+.btn-ink:hover{background:#2E2156}
+
+/* ---------- En-tête ---------- */
+.top{position:fixed;inset:0 0 auto 0;z-index:50}
+/* Le flou est porté par un pseudo-élément : posé sur .top, il piégerait le menu mobile (position:fixed) dans l'en-tête */
+.top::before{content:"";position:absolute;inset:0;z-index:-1;background:color-mix(in srgb,var(--night) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line);opacity:0;transition:opacity .3s ease}
+.top.is-stuck::before,.top.is-open::before{opacity:1}
+.top.is-open::before{background:var(--night)}
+.top-in{display:flex;align-items:center;gap:24px;height:72px}
+.logo{display:block;color:var(--leaf);flex:none}
+.logo svg{display:block;height:34px;width:auto}
+.nav{display:flex;gap:4px;margin-left:auto}
+.nav a{padding:10px 14px;border-radius:999px;text-decoration:none;font-weight:500;font-size:.98rem;color:var(--cream-dim);transition:color .15s,background-color .15s}
+.nav a:hover,.nav a[aria-current="true"]{color:var(--cream);background:rgba(250,235,211,.09)}
+.top-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;background:var(--cream);color:var(--ink);font-weight:700;text-decoration:none;white-space:nowrap}
+.top-tel:hover{background:#fff}
+.burger{display:none;width:48px;height:48px;border-radius:50%;border:2px solid var(--line);background:none;position:relative;flex:none}
+.burger span{position:absolute;left:13px;right:13px;height:2px;background:var(--cream);border-radius:2px;transition:transform .25s ease,top .25s ease}
+.burger span:first-child{top:18px}.burger span:last-child{top:26px}
+.burger[aria-expanded="true"] span:first-child{top:22px;transform:rotate(45deg)}
+.burger[aria-expanded="true"] span:last-child{top:22px;transform:rotate(-45deg)}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding-top:clamp(190px,25vh,250px);padding-bottom:clamp(56px,7vw,96px);isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
+  radial-gradient(60% 50% at 78% 38%,rgba(255,125,115,.28),transparent 70%),
+  radial-gradient(45% 40% at 12% 12%,rgba(88,196,240,.20),transparent 70%),
+  radial-gradient(50% 40% at 40% 100%,rgba(126,217,75,.12),transparent 70%);
+  opacity:var(--glow);transition:opacity .7s ease}
+.garland{position:absolute;left:0;top:58px;width:100%;height:230px;z-index:3;pointer-events:none;overflow:visible}
+.garland .wire{fill:none;stroke:rgba(250,235,211,.34);stroke-width:2}
+.garland .b{pointer-events:auto;cursor:pointer}
+.garland .socket{fill:#0B081C;stroke:rgba(250,235,211,.3);stroke-width:1}
+.garland .glass{fill:var(--c);opacity:.22;transition:opacity .35s ease}
+.garland .halo{opacity:0;transition:opacity .45s ease}
+.garland .b.is-lit .glass{opacity:1}
+.garland .b.is-lit .halo{opacity:.85}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:clamp(28px,5vw,72px);align-items:center}
+.hero h1{font-size:clamp(2.9rem,7.6vw,6.4rem);line-height:.96;letter-spacing:-.01em}
+.hero h1 span{display:block}
+.hero-lead{margin-top:26px;font-size:clamp(1.08rem,1.5vw,1.3rem);color:var(--cream-dim);max-width:34rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.hero-photo{position:relative;border-radius:160px 160px var(--r-l) var(--r-l);overflow:hidden;aspect-ratio:4/5;background:linear-gradient(160deg,#5B2A8C,#FF7D73 60%,#FFC83D);box-shadow:0 40px 80px -30px rgba(0,0,0,.7)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:62% 50%;transition:filter .7s ease,transform 1.2s cubic-bezier(.2,.7,.2,1)}
+html[data-lights="off"] .hero-photo img{filter:brightness(.34) saturate(.55)}
+.hero-photo.is-missing img{visibility:hidden}
+.hero-photo figcaption{position:absolute;left:18px;bottom:16px;right:18px;font-size:.9rem;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.8)}
+.cord{position:absolute;right:max(14px,calc((100vw - var(--wrap))/2 - 78px));top:58px;z-index:4;width:56px;height:190px;padding:0;border:0;background:none;touch-action:none;display:flex;flex-direction:column;align-items:center}
+.cord i{display:block;width:2px;flex:1;background:repeating-linear-gradient(#FAEBD3 0 5px,#C9B48F 5px 8px)}
+.cord b{display:block;width:26px;height:38px;border-radius:13px 13px 16px 16px;background:var(--coral);border:3px solid var(--cream);box-shadow:0 6px 14px rgba(0,0,0,.45)}
+.cord-in{display:flex;flex-direction:column;align-items:center;height:100%;transition:transform .35s cubic-bezier(.3,1.6,.5,1)}
+.cord.is-held .cord-in{transition:none}
+.cord-tip{display:none;position:absolute;right:max(14px,calc((100vw - var(--wrap))/2 - 78px));top:256px;z-index:4;width:84px;font-size:.88rem;line-height:1.3;text-align:center;color:var(--cream-dim);pointer-events:none;transform:translateX(14px)}
+@media (min-width:1380px){.cord-tip{display:block}}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:clamp(48px,7vw,88px);border-top:1px solid var(--line)}
+.facts li{padding:22px 22px 0 0}
+.facts li + li{padding-left:22px;border-left:1px solid var(--line)}
+.facts strong{display:block;font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,2.6vw,2.2rem);line-height:1.1}
+.facts span{color:var(--cream-dim);font-size:.98rem}
+
+/* ---------- Occasions ---------- */
+.occ{border-block:1px solid var(--line);overflow:hidden;padding-block:18px}
+.occ-track{display:flex;gap:44px;width:max-content;animation:roll 38s linear infinite}
+.occ:hover .occ-track{animation-play-state:paused}
+.occ span{font-family:var(--display);font-size:clamp(1.4rem,3vw,2.2rem);white-space:nowrap;display:flex;align-items:center;gap:44px}
+.occ span::after{content:"";width:14px;height:14px;border-radius:50%;background:var(--c,var(--bulb))}
+@keyframes roll{to{transform:translateX(-50%)}}
+
+/* ---------- Formules ---------- */
+.switch{display:inline-flex;padding:5px;border-radius:999px;background:var(--night-2);border:1px solid var(--line);gap:4px;max-width:100%}
+.switch button{min-height:48px;padding:0 22px;border:0;border-radius:999px;background:none;font-weight:700;color:var(--cream-dim);transition:background-color .2s,color .2s}
+.switch button[aria-selected="true"],.switch button[aria-pressed="true"]{background:var(--cream);color:var(--ink)}
+.formule{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);margin-top:40px;align-items:start}
+.formule[hidden]{display:none}
+.formule-lead{font-size:1.2rem;max-width:32rem}
+.formule-lead em{font-style:normal;color:var(--bulb)}
+.incl{margin-top:28px;display:grid;gap:2px}
+.incl li{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}
+.incl li::before{content:"";width:12px;height:12px;margin-top:8px;border-radius:50%;background:var(--c,var(--bulb));box-shadow:0 0 calc(12px*var(--glow)) var(--c,var(--bulb))}
+.incl li:nth-child(4n+2){--c:var(--coral)}.incl li:nth-child(4n+3){--c:var(--leaf)}.incl li:nth-child(4n){--c:var(--lagoon)}
+.incl strong{color:#fff}
+.formule-side{display:grid;gap:18px}
+.shot{margin:0;border-radius:var(--r-m);overflow:hidden;background:linear-gradient(140deg,var(--night-3),#5B2A8C);aspect-ratio:3/2}
+.shot img{width:100%;height:100%;object-fit:cover}
+.shot.is-missing img{visibility:hidden}
+.usage{background:var(--night-2);border:1px solid var(--line);border-radius:var(--r-m);padding:24px}
+.usage .switch{background:var(--night)}
+.usage .switch button{min-height:42px;padding:0 16px;font-size:.95rem}
+.usage p{margin-top:16px;color:var(--cream-dim)}
+.usage p[hidden]{display:none}
+
+/* Carte des formules conviviales */
+.board{background:#0F0C26;border:1px solid var(--line);border-radius:var(--r-m);padding:clamp(20px,3vw,34px)}
+.board-tabs{display:flex;flex-wrap:wrap;gap:8px}
+.board-tabs button{min-height:44px;padding:0 16px;border-radius:999px;border:1.5px solid var(--line);background:none;font-weight:600;color:var(--cream-dim);transition:all .2s}
+.board-tabs button[aria-selected="true"]{background:var(--bulb);border-color:var(--bulb);color:var(--ink)}
+.board-price{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-top:26px}
+.board-price strong{font-family:var(--display);font-weight:400;font-size:clamp(3rem,6vw,4.4rem);line-height:1;color:var(--bulb)}
+.board-price span{color:var(--cream-dim)}
+.courses{margin-top:22px}
+.courses div{display:grid;grid-template-columns:7.5rem 1fr;gap:14px;padding:14px 0;border-top:1px dashed var(--line)}
+.courses dt{font-family:var(--display);font-size:1.1rem;color:var(--coral)}
+.courses dd{margin:0}
+.courses a{color:var(--lagoon)}
+.board-note{margin-top:18px;font-size:.95rem;color:var(--cream-dim)}
+
+/* ---------- Estimation ---------- */
+.estim{background:var(--night-2);transition:background-color .7s ease}
+.estim-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,64px);align-items:start}
+.field-set{border:0;padding:0;margin:0 0 34px;min-width:0}
+.field-set legend,.lbl{display:block;padding:0;margin-bottom:12px;font-weight:700;font-size:1.05rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;inset:0;width:100%;height:100%;margin:0;cursor:pointer}
+.chip span{display:inline-flex;align-items:center;min-height:46px;padding:0 18px;border-radius:999px;border:1.5px solid var(--line);font-weight:600;color:var(--cream-dim);transition:all .18s}
+.chip input:checked + span{background:var(--cream);border-color:var(--cream);color:var(--ink)}
+.chip input:focus-visible + span{outline:3px solid var(--bulb);outline-offset:3px}
+.chip:hover span{border-color:var(--cream)}
+.guests-row{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.guests-row output{font-family:var(--display);font-size:clamp(2.4rem,5vw,3.4rem);line-height:1;color:var(--bulb)}
+.guests-row output small{font:500 1rem var(--text);color:var(--cream-dim);margin-left:6px}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:36px;background:none;margin:8px 0 0;cursor:pointer}
+input[type=range]::-webkit-slider-runnable-track{height:8px;border-radius:8px;background:linear-gradient(90deg,var(--bulb) var(--p,40%),rgba(250,235,211,.18) var(--p,40%))}
+input[type=range]::-moz-range-track{height:8px;border-radius:8px;background:rgba(250,235,211,.18)}
+input[type=range]::-moz-range-progress{height:8px;border-radius:8px;background:var(--bulb)}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:30px;height:30px;margin-top:-11px;border-radius:50%;background:var(--cream);border:4px solid var(--bulb);box-shadow:0 4px 12px rgba(0,0,0,.4)}
+input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:var(--cream);border:4px solid var(--bulb)}
+.room{display:grid;grid-template-columns:repeat(20,minmax(0,1fr));gap:5px;margin-top:18px}
+.room i{aspect-ratio:1;border-radius:50%;background:rgba(250,235,211,.13);transition:background-color .25s,box-shadow .25s}
+.room i.on{background:var(--bulb);box-shadow:0 0 calc(8px*var(--glow)) rgba(255,200,61,.8)}
+.room i.on.up{background:var(--coral);box-shadow:0 0 calc(8px*var(--glow)) rgba(255,125,115,.8)}
+.room-note{margin-top:14px;color:var(--cream-dim);min-height:3.2em}
+.room-note b{color:var(--cream)}
+.sub[hidden]{display:none}
+.stepper{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--line);border-radius:999px;padding:4px}
+.stepper button{width:42px;height:42px;border-radius:50%;border:0;background:rgba(250,235,211,.1);font-size:1.3rem;font-weight:700;line-height:1}
+.stepper button:hover{background:rgba(250,235,211,.2)}
+.stepper output{min-width:2.4ch;text-align:center;font-weight:700;font-size:1.15rem}
+.hint{display:block;margin-top:10px;font-size:.95rem;color:var(--cream-dim)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+
+.ticket{position:sticky;top:96px;background:var(--paper);color:var(--ink);border-radius:var(--r-m);padding:30px 28px 28px;
+  -webkit-mask:radial-gradient(14px at 0 var(--cut),#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(14px at 100% var(--cut),#0000 98%,#000) right/51% 100% no-repeat;
+  mask:radial-gradient(14px at 0 var(--cut),#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(14px at 100% var(--cut),#0000 98%,#000) right/51% 100% no-repeat;--cut:calc(100% - 178px)}
+.ticket h3{font-size:1.6rem}
+.ticket-lines{margin:20px 0 0}
+.ticket-lines div{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px dashed rgba(29,19,56,.22)}
+.ticket-lines dt{color:var(--ink-soft)}
+.ticket-lines dd{margin:0;font-weight:700;text-align:right}
+.ticket-total{height:150px;margin-top:28px;padding-top:22px;border-top:2px dashed rgba(29,19,56,.3);display:flex;flex-direction:column;justify-content:space-between}
+.ticket-total p{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.ticket-total strong{font-family:var(--display);font-weight:400;font-size:clamp(1.8rem,3.4vw,2.5rem);line-height:1;white-space:nowrap}
+.ticket-total small{display:block;font-size:.88rem;color:var(--ink-soft);margin-top:4px}
+.ticket .btn{width:100%}
+.ticket-warn{margin-top:16px;padding:14px 16px;border-radius:var(--r-s);background:#FFE1DD;color:#7A1F16;font-size:.96rem}
+.ticket-warn[hidden]{display:none}
+.ticket-warn button{margin-top:8px;padding:8px 14px;border-radius:999px;border:0;background:#7A1F16;color:#fff;font-weight:700}
+
+/* ---------- Visite 360 ---------- */
+.tour{position:relative;border-radius:var(--r-l);overflow:hidden;aspect-ratio:16/9;background:linear-gradient(140deg,var(--night-3),#3B1F6E)}
+.tour img,.tour iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
+.tour.is-missing img{visibility:hidden}
+.tour-veil{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:16px;text-align:center;padding:24px;background:radial-gradient(circle at 50% 50%,rgba(10,8,25,.35),rgba(10,8,25,.78))}
+.tour-go{width:108px;height:108px;border-radius:50%;border:3px solid var(--cream);background:var(--bulb);color:var(--ink);font-family:var(--display);font-size:1.7rem;transition:transform .25s cubic-bezier(.3,1.6,.5,1)}
+.tour-go:hover{transform:scale(1.08) rotate(-8deg)}
+.tour-veil p{max-width:26rem;color:#fff}
+.tour-alt{margin-top:16px;color:var(--cream-dim)}
+.tour-alt a{color:var(--lagoon)}
+
+/* ---------- Galerie ---------- */
+.gal-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:36px}
+.gal-nav{display:flex;gap:8px}
+.gal-nav button{width:52px;height:52px;border-radius:50%;border:2px solid var(--line);background:none;display:grid;place-items:center}
+.gal-nav button:hover{border-color:var(--cream)}
+.gal-nav svg{width:20px;height:20px}
+.strip{position:relative;display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x proximity;padding:34px var(--gutter) 30px;scrollbar-width:none;cursor:grab;background:linear-gradient(rgba(250,235,211,.34),rgba(250,235,211,.34)) 0 20px/100% 2px no-repeat}
+.strip::-webkit-scrollbar{display:none}
+.strip.is-drag{cursor:grabbing;scroll-snap-type:none}
+.strip.is-drag button{pointer-events:none}
+.pic{flex:none;width:clamp(240px,30vw,400px);padding:10px 10px 14px;border:0;background:var(--paper);color:var(--ink);border-radius:6px;scroll-snap-align:center;transform:rotate(var(--tilt,0deg));transform-origin:50% -14px;transition:transform .35s cubic-bezier(.3,1.5,.5,1);position:relative;text-align:left;box-shadow:0 18px 30px -14px rgba(0,0,0,.7)}
+.pic::before{content:"";position:absolute;left:50%;top:-22px;width:12px;height:30px;margin-left:-6px;border-radius:3px;background:var(--c,var(--coral))}
+.pic:nth-child(4n+1){--tilt:-2.2deg;--c:var(--bulb)}.pic:nth-child(4n+2){--tilt:1.6deg}.pic:nth-child(4n+3){--tilt:-1deg;--c:var(--leaf)}.pic:nth-child(4n){--tilt:2.4deg;--c:var(--lagoon)}
+.pic:hover,.pic:focus-visible{transform:rotate(0deg) translateY(4px)}
+.pic span.ph{display:block;aspect-ratio:4/3;overflow:hidden;border-radius:3px;background:linear-gradient(140deg,#3B1F6E,#FF7D73)}
+.pic img{width:100%;height:100%;object-fit:cover;pointer-events:none}
+.pic.is-missing img{visibility:hidden}
+.pic em{display:block;margin-top:10px;font-style:normal;font-weight:600;font-size:.95rem}
+dialog.box{border:0;padding:0;background:none;max-width:none;max-height:none;width:100vw;height:100dvh;color:var(--cream)}
+dialog.box::backdrop{background:rgba(6,4,16,.94)}
+.box-in{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:1fr auto;align-items:center;gap:12px;height:100%;padding:20px}
+.box-in img{grid-column:2;max-height:calc(100dvh - 120px);max-width:100%;margin:auto;border-radius:10px;object-fit:contain}
+.box-in p{grid-column:1/-1;text-align:center;color:var(--cream-dim)}
+.box-btn{width:52px;height:52px;border-radius:50%;border:2px solid var(--line);background:rgba(23,18,58,.8);display:grid;place-items:center}
+.box-btn:hover{border-color:var(--cream)}
+.box-btn svg{width:20px;height:20px}
+.box-close{position:absolute;top:16px;right:16px}
+
+/* ---------- Agenda ---------- */
+.agenda{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center}
+.agenda-links{display:grid;gap:14px}
+.agenda-links a{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:24px 26px;border-radius:var(--r-m);background:var(--night-2);border:1px solid var(--line);text-decoration:none;transition:transform .2s ease,border-color .2s ease}
+.agenda-links a:hover{transform:translateX(6px);border-color:var(--c)}
+.agenda-links strong{font-family:var(--display);font-weight:400;font-size:1.5rem;display:block;color:var(--cream)}
+.agenda-links a > span{display:block}
+.agenda-links span span{color:var(--cream-dim);font-size:.96rem}
+.agenda-links i{width:16px;height:16px;border-radius:50%;background:var(--c);box-shadow:0 0 calc(14px*var(--glow)) var(--c);flex:none}
+
+/* ---------- Devis ---------- */
+.devis{background:var(--paper);color:var(--ink)}
+.devis-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(28px,5vw,72px);align-items:start}
+.devis h2{color:var(--ink)}
+.devis-intro{margin-top:18px;color:var(--ink-soft);font-size:1.125rem}
+.recap{margin-top:28px;padding:22px;border-radius:var(--r-m);background:var(--ink);color:var(--paper)}
+.recap p{font-weight:600;font-size:1.08rem}
+.recap a{display:inline-block;margin-top:10px;color:var(--bulb);font-weight:600}
+.direct{margin-top:28px;display:grid;gap:6px}
+.direct a{font-family:var(--display);font-size:clamp(1.6rem,3vw,2.2rem);text-decoration:none;color:var(--ink)}
+.direct a:hover{color:#C6392E}
+.direct span{color:var(--ink-soft)}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.f{display:grid;gap:7px;min-width:0}
+.f.full{grid-column:1/-1}
+.f[hidden]{display:none}
+.f label,.f legend{font-weight:700;padding:0}
+.f input:not([type=radio]):not([type=checkbox]),.f textarea{width:100%;min-height:52px;padding:12px 16px;border-radius:var(--r-s);border:2px solid rgba(29,19,56,.2);background:#fff;color:var(--ink)}
+.f textarea{min-height:130px;resize:vertical}
+.f input:focus-visible,.f textarea:focus-visible{outline:3px solid #7B3FD6;outline-offset:1px;border-color:var(--ink)}
+.f [aria-invalid="true"]{border-color:#C6392E!important}
+.err{color:#A3261C;font-size:.93rem;font-weight:600;min-height:0}
+.err:empty{display:none}
+fieldset.f{border:0;padding:0;margin:0}
+.devis .chip span{border-color:rgba(29,19,56,.25);color:var(--ink-soft)}
+.devis .chip input:checked + span{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.devis .chip:hover span{border-color:var(--ink)}
+.consent{display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:start;font-size:.95rem;color:var(--ink-soft)}
+.consent input{width:22px;height:22px;margin:2px 0 0;accent-color:var(--ink)}
+.form-end{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.status{grid-column:1/-1;padding:18px 20px;border-radius:var(--r-s);background:#E3F6D6;color:#22500B;font-weight:600}
+.status[hidden]{display:none}
+.status button{margin-left:8px;padding:6px 14px;border-radius:999px;border:2px solid currentColor;background:none;font-weight:700;color:inherit}
+
+/* ---------- Pied de page ---------- */
+.foot{padding-block:64px 120px;font-size:.98rem}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
+.foot .logo svg{height:44px}
+.foot address{font-style:normal;margin-top:18px;color:var(--cream-dim);line-height:1.8}
+.foot address a{color:var(--cream)}
+.foot h3{font:700 1rem var(--text);margin-bottom:12px}
+.foot li a{display:inline-block;padding:5px 0;color:var(--cream-dim);text-decoration:none}
+.foot li a:hover{color:var(--cream);text-decoration:underline}
+.legal{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);color:var(--cream-dim);font-size:.9rem;display:grid;gap:8px}
+
+/* ---------- Barre mobile + caravane de progression ---------- */
+.dock{display:none}
+.road{position:fixed;left:0;right:0;bottom:0;height:3px;background:rgba(250,235,211,.12);z-index:40;pointer-events:none}
+.road svg{position:absolute;bottom:1px;left:0;width:34px;height:auto;transform:translateX(calc(var(--prog,0) * (100vw - 34px)))}
+
+/* ---------- Adaptation ---------- */
+@media (max-width:1020px){
+  .nav{position:fixed;inset:72px 0 0 0;flex-direction:column;gap:0;padding:24px var(--gutter);background:var(--night);margin:0;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s,transform .25s,visibility .25s;overflow:auto}
+  .nav.is-open{opacity:1;visibility:visible;transform:none}
+  .nav a{font-family:var(--display);font-size:2rem;padding:14px 0;border-radius:0;border-bottom:1px solid var(--line);color:var(--cream)}
+  .nav a:hover,.nav a[aria-current="true"]{background:none;color:var(--bulb)}
+  .burger{display:block}
+  .top-tel{margin-left:auto}
+}
+@media (max-width:900px){
+  .hero-grid,.formule,.estim-grid,.agenda,.devis-grid{grid-template-columns:minmax(0,1fr)}
+  .hero-photo{aspect-ratio:5/4;border-radius:90px 90px var(--r-m) var(--r-m)}
+  .cord{height:150px}
+  .facts{grid-template-columns:1fr 1fr}
+  .facts li{padding:18px 14px 18px 0}
+  .facts li + li{padding-left:0;border-left:0}
+  .facts li:nth-child(even){padding-left:18px;border-left:1px solid var(--line)}
+  .facts li:nth-child(n+3){border-top:1px solid var(--line)}
+  .ticket{position:static}
+  .foot-grid{grid-template-columns:1fr}
+  .road{display:none}
+  .dock{position:fixed;left:10px;right:10px;bottom:10px;z-index:45;display:grid;grid-template-columns:1fr 1.4fr;gap:8px;padding:8px;border-radius:999px;background:color-mix(in srgb,var(--night) 90%,transparent);backdrop-filter:blur(12px);border:1px solid var(--line);transform:translateY(140%);transition:transform .35s ease}
+  .dock.is-on{transform:none}
+  .dock .btn{min-height:48px;padding:0 12px}
+}
+@media (max-width:560px){
+  .top-tel span{display:none}
+  .top-tel{padding:0;width:48px;justify-content:center}
+  .form,.pair{grid-template-columns:1fr}
+  .courses div{grid-template-columns:1fr;gap:2px}
+  .room{gap:3px}
+  .gal-nav{display:none}
+  .box-in{grid-template-columns:1fr 1fr;padding:12px}
+  .box-in img{grid-column:1/-1;grid-row:1}
+  .box-in .box-prev{grid-row:2;justify-self:end}.box-in .box-next{grid-row:2}
+  .box-in p{grid-row:3}
+  .switch button{padding:0 16px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important}
+  .occ-track{flex-wrap:wrap;width:auto;justify-content:center;row-gap:8px}
+  .occ-track span[aria-hidden]{display:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="top" id="top">
+  <div class="wrap top-in">
+    <a class="logo" href="#accueil" aria-label="La Caravane, retour à l'accueil"><svg viewBox="0 0 322.3 66.2" fill="currentColor" aria-hidden="true" focusable="false"><path d="M55.3,32.4c-0.4-7.7,0.6-15,5.3-21.4c3.2-4.5,7.9-7.8,13.3-9.4c9.2-2.6,18.3-1.9,27.3,0.4 c5.1,1.3,9.6,4.2,12.9,8.2c3.6,4.3,3.2,8.5,0.4,13c-3.2,5.4-8.4,7.7-14.6,7.9c-4.7,0.1-9.2-0.4-13.4-2.8c-2.6-1.4-4.7-3.7-5.9-6.4 c-1.3-3.3,0.9-8.4,4.1-10.1c2.1-1.1,4.5-1.5,6.8-1.3c0.6,0.1,1.2,0.3,1.7,0.6c0.8,0.4,1.1,1.4,0.7,2.2c-0.2,0.4-0.5,0.7-0.9,0.8 c-0.3,0.2-0.7,0.3-1.1,0.4c-0.5,0.1-1.1,0.3-1.6,0.4c-1.9,0.2-3.4,1.5-3.8,3.4c-0.4,2,0.9,3.7,2.5,4.7c3.4,2.2,7.5,3,11.5,2.1 c1.9-0.4,3.7-1.2,5.4-2.2c3.7-2.1,5-6.7,2.9-10.4c-0.3-0.5-0.6-0.9-0.9-1.3c-2.7-3.3-6.2-5.1-10.2-6.4c-5-1.5-10.2-1.9-15.3-1.3 c-2.5,0.3-4.9,1.4-7.3,2.3c-3.5,1.3-6.4,3.7-8.4,6.9c-2.1,3.2-3.6,6.8-4.2,10.6c-0.9,5-1.2,10.1-1,15.2c0.1,5.5,2.4,10.8,6.5,14.6 c2.6,2.4,5.4,4.7,9.1,5.6c2.5,0.6,4.8,1.8,7.4,1.9c6.4,0.4,12.7-1.7,17.5-6c2.5-2.4,2.5-6.4,0.1-8.9c0,0-0.1-0.1-0.2-0.1 c-0.8-0.8-1.6-1.4-2.4-2.2c-0.9-0.7-1.3-1.8-1.1-2.9c0.3-1.2,1.3-1.5,2.4-1.7c2.4-0.4,4.9,0.3,6.7,2.1c3.2,2.9,4,6.5,3,10.7 c-1.4,6.2-5.9,9.6-11.2,12c-6.1,2.8-12.5,3-19.1,2.2c-4.3-0.6-8.5-2-12.2-4.4c-3.5-2.2-6.3-5.3-8.2-8.9c-2.8-5.2-4.3-11-4.4-16.9 C55.2,34.6,55.3,33.5,55.3,32.4z"/><path d="M153.7,65.4c-3.9,0.4-7.2-0.3-9.9-2.8c-3.1-2.7-5.2-6-5.4-10.3c-0.1-1.6-0.3-3.3-0.5-4.9 c-0.3-2.1-1.6-3.2-3.7-3.7c-2.7-0.6-5.2-0.5-6.9,2.1c-0.5,0.9-0.9,1.8-1.1,2.8c-0.6,2.1-2.6,3.4-4.7,3.1c-1.4,0.1-2.7-1-2.8-2.4 c0-0.1,0-0.3,0-0.4c0-0.8,0.2-1.6,0.4-2.3c0.9-2.5,1.7-5,2.8-7.5c1.6-3.4,2.3-7,3.2-10.5c0.6-2.3,1.4-4.6,2.2-6.9 c0.6-1.8,1.3-3.5,1.9-5.3c0.1-0.2,0.1-0.5,0.2-0.7c1.3-3.5,4.1-4,6.7-1.5c1.2,1.2,2.1,2.7,2.6,4.4c2.5,7.4,4.3,15,5.5,22.7 c0.8,4.6,2,9.1,3.4,13.6c1.5,4.8,5.3,6.3,10,4.4c1.2-0.5,2.3-0.9,3.5-1.3c0.4-0.1,0.7-0.3,1.1-0.3c1.3-0.4,2.8,0.3,3.3,1.5 c0.4,1.3-0.1,2.7-1.3,3.5c-2.4,1.6-5.1,2.5-7.9,2.7C155.5,65.4,154.4,65.4,153.7,65.4z M132.6,35.6v0.1c0.8-0.1,1.5-0.2,2.3-0.2 c1.5,0.1,1.5-0.6,1.3-1.7c-0.6-2.4-1.1-4.7-1.7-7c-0.1-0.3-0.4-0.5-0.7-0.8c-0.3,0.2-0.6,0.5-0.8,0.8c-1.1,2.5-2.2,5-3.2,7.5 c-0.6,1.4-0.3,1.7,1.3,1.5C131.7,35.7,132.1,35.7,132.6,35.6z"/><path d="M268.5,49.7c0.1-4.2,0.3-8.4,0.4-12.6c0.1-3.9,0-7.8,0-11.7c0-2.5-0.1-5,0.9-7.4c0.7-1.7,1.2-2,3-1.7 c2.4,0.3,4.3,1.3,5.2,3.8c0.2,0.4,0.4,0.8,0.7,1.2c2.7,4.1,4.8,8.6,6.1,13.3c0.1,0.3,0.2,0.6,0.3,0.9c0.2,0.3,0.4,0.4,0.7,0.5 c0.3-0.1,0.5-0.2,0.7-0.5c0.2-0.7,0.3-1.4,0.4-2.1c0-4.2-0.1-8.4-0.1-12.6c0-1.2,0.3-2.3,0.9-3.3c1.3-1.4,3.5-1.5,4.9-0.2 c0.5,0.5,0.9,1.1,1.1,1.9c0.5,2.8,0.7,5.6,0.8,8.4c0,1.2-0.1,2.5-0.2,3.7c-0.4,6.5-0.7,13.1-1.1,19.6c-0.1,0.7-0.2,1.4-0.4,2.1 c-0.3,1.4-1.6,2.3-3,2.1c-2.3-0.1-4.1-0.9-4.9-3.2c-1.1-3-2.2-6-3.3-9c-0.8-2.3-1.6-4.6-2.5-6.8c-0.2-0.4-0.4-0.8-0.7-1.2 c-0.5-0.6-1.1-0.5-1.4,0.3c-0.1,0.5-0.2,1.1-0.2,1.6c-0.5,5-0.9,10-1.4,14.9c-0.3,2.7-1.1,3.3-3.5,3.6c-1.6,0.3-3.1-0.7-3.4-2.3 c0-0.1,0-0.2,0-0.3c-0.1-0.9-0.1-1.9,0-2.8L268.5,49.7z"/><path d="M148.2,18.2c-1.2-0.1-2.5-0.2-3.7-0.4c-0.4-0.1-0.7-0.5-1-0.8c0.3-0.3,0.6-0.7,1-0.8c4.2-1,8.3-2,12.6-2.8 c4.8-0.9,9.6-0.9,14.2,1.3c4.5,2.3,6.8,7.5,5.3,12.4c-0.6,2.2-1.8,4.2-3.4,5.8c-1.5,1.3-1.5,3-1.1,4.8c0.8,3,1.8,6,2.6,9 c0.4,1.3,0.6,2.7,1,4.1c0.3,0.9-0.1,1.8-1,2.1c-0.1,0-0.2,0.1-0.3,0.1c-2.5,1.1-5.5-0.1-6.6-2.6c-0.1-0.3-0.2-0.5-0.3-0.8 c-0.8-2.8-1.4-5.6-2.2-8.4c-0.3-1.4-0.9-2.6-1.8-3.8c-1.4-1.7-3.2-1.4-4.1,0.6c-0.5,1.2-0.8,2.4-0.9,3.6c-0.4,2.8-0.6,5.6-0.8,8.4 c0,1.3-0.8,2.4-2.1,2.8c-1.6,0.5-3.4,0.5-4.4-0.8c-0.8-1-0.9-2.6-0.9-4c0-1.5,0.5-3.1,0.6-4.7c0.3-4.9,0.5-9.8,0.7-14.7 c0.1-2.8,0-5.6,0.1-8.4c0-1.6,0-2.2-2.4-2.2c-0.4,0-0.8,0-1.2,0.1L148.2,18.2z M159.1,22.5c0.1,1,0.2,2.5,0.4,4.1 c0.1,0.9,0.4,1.8,1.5,2.1c2.5,0.9,5.3,0.2,7.1-1.8c1.4-1.2,2-3.1,1.5-4.9c-0.5-1.7-1.9-3-3.7-3.2c-1.2-0.2-2.5-0.3-3.7-0.3 C159.4,18.6,159,19.1,159.1,22.5z"/><path d="M200.9,3.2c2.6,0.5,5.2,0.8,7.7,1.5c2.9,0.8,5.3,2.8,6.7,5.5c2.7,4.7,4.6,9.7,5.9,15c1,3.9,1.7,7.9,2.5,11.9 c0.1,0.5,0.2,1.1,0.4,1.6c0.3,0.6,0.7,0.5,1,0.1c0.2-0.3,0.3-0.6,0.3-0.9c1.2-4.9,2.5-9.9,3.7-14.8c0.5-2,1-3.9,1.6-5.9 c0.2-1.3,1.4-2.2,2.7-2c0,0,0,0,0,0c0.6,0,1.1,0,1.6,0.1c1.9,0.2,2.7,1.1,2.3,3c-1.6,6.8-3,13.6-5.5,20.1c-1.1,3-2.1,6.1-3.1,9.1 c-0.5,1.3-0.9,2.7-1.5,4c-0.8,2.3-3.2,3.5-5.5,2.8c-0.2-0.1-0.3-0.1-0.5-0.2c-0.8-0.5-1.5-1.2-1.8-2c-0.4-1-0.7-2.1-0.8-3.2 c-0.5-3.7-0.8-7.4-1.4-11.1c-0.6-4.9-1.7-9.7-3.3-14.4c-1.2-3.5-2.5-6.9-3.8-10.3c-0.5-1.2-1.2-2.4-2-3.4 c-1.9-2.4-4.5-2.9-7.4-2.6c-2,0.2-4,0.6-6,0.8c-1.6,0.2-2.8-0.3-3-1.2s0.6-1.8,2.3-2.2C196.3,3.9,198.6,3.6,200.9,3.2z"/><path d="M259,55.1c-2.6,0-3.9-1-4.2-3.7c0-0.4-0.1-0.8-0.2-1.2c-0.6-3.2-1.5-4-4.8-4.4c-2.5-0.4-4.9,1-5.8,3.3 c-0.2,0.4-0.4,0.9-0.5,1.3c-0.6,2.6-2.7,3.3-5,3.5c-2.6,0.3-3.7-1.3-2.8-3.8c2.5-7.3,5-14.6,7.4-22c0.8-2.8,1.5-5.7,1.9-8.7 c0.5-2.7,0.9-3.3,3.6-3.8s4.5,0.2,5.6,2.3c0.3,0.6,0.5,1.2,0.7,1.8c2.6,7.9,4.7,15.9,6.1,24c0.4,2.2,1,4.4,1.5,6.6 C263.1,53.1,261.7,55,259,55.1z M249.4,38.1l2.3-0.2h0.2c1.2-0.1,1.9-0.7,1.6-1.8c-0.6-2-1.3-4-2.1-5.9c-0.1-0.3-0.7-0.6-0.9-0.5 c-0.4,0.2-0.7,0.6-0.8,1c-0.5,1.2-1,2.4-1.4,3.6c-0.3,0.6-0.7,1.2-0.9,1.9c-0.5,1.2-0.2,1.7,1.1,1.9 C248.8,38.1,249.1,38.1,249.4,38.1L249.4,38.1z"/><path d="M201.7,44l-11.9-0.2c-0.5,0-0.9-0.1-1.4-0.1c-3.5-0.5-4.2-1.8-3.1-5.3c2-6.2,3.9-12.3,5.8-18.5 c0.5-1.7,0.9-3.5,1.3-5.2c0.6-2.4,1.6-3.4,4.1-3.3c2.3,0,4.1,0.6,5.2,3.1c2.6,5.6,4.5,11.5,5.7,17.5c0.5,2.7,1.2,5.3,1.7,8 s0.1,3.1-2.6,3.6c-1.6,0.3-3.2,0.5-4.9,0.7L201.7,44z M199.1,34.2h0.8c2.2,0,2.5-0.4,1.9-2.4c-0.4-1.3-0.9-2.7-1.4-4 s-1-2.8-1.6-4.1c-0.2-0.3-0.5-0.5-0.9-0.6c-0.2,0-0.6,0.3-0.6,0.5c-1.2,3.1-2.3,6.3-3.4,9.4c-0.4,1.1,0.2,1.5,1.1,1.4 C196.4,34.4,197.8,34.2,199.1,34.2L199.1,34.2z"/><path d="M316.9,20.6c-1.2-0.1-2.5-0.1-3.7,0c-3,0.4-4.1,1.5-4.2,4.5c0,1.6,0.2,3.3,0.5,4.9c0.2,1.3,1.2,2.3,2.5,2.5 c1.2,0.2,2.3,0.3,3.5,0.6c1.7,0.4,3.3,0.9,4.9,1.5c0.4,0.1,0.9,0.8,0.8,1.2c-0.1,0.6-0.5,1.1-1,1.4c-1,0.3-2.1,0.5-3.2,0.6 c-1.5,0.1-3,0-4.5,0.1c-2.7,0.2-3.9,1.5-4,4.2c-0.1,1.4-0.2,2.8-0.2,4.2c0.1,2.9,1.4,4,4.3,4.1c1.2,0,2.4,0.1,3.5,0 c1.7,0,3.2,0.6,4.5,1.7c0.7,0.4,1,1.4,0.5,2.1c-0.2,0.4-0.6,0.7-1.1,0.7c-1.3,0.3-2.6,0.6-3.9,0.6c-3.4,0.2-6.7,0.3-10.1,0.4 s-6-2.2-5.2-5.7c0.4-2.5,0.7-4.9,0.8-7.4c0.3-4.7,0.5-9.3,0.6-14c0-2.5-0.1-5.1-0.4-7.7c-0.2-3,0.6-4.2,3.6-4.6 c1.5-0.1,2.9,0,4.4,0.1l10.1,0.1c1,0,2.1,0,2.3,1.4c0.2,1.1-0.4,1.9-1.9,2.2c-0.7,0.2-1.4,0.3-2.1,0.4c-0.5,0.1-0.9,0.1-1.4,0.1 L316.9,20.6z"/><path d="M193.4,48c4.4,0.2,8.9,0.3,13.3,0.5c0.8,0.1,1.7,0.4,2.4,0.8c0.9,0.4,1.3,1.5,1,2.4c-0.1,1-0.9,1.7-1.8,1.9 c-2.1,0.2-4.2,0.5-6.3,0.5c-4.1,0-8.2-0.2-12.4-0.4c-1.7-0.1-3.4-0.2-5.1-0.6c-0.6-0.1-1.6-0.8-1.6-1.3c0-0.8,0.3-1.6,0.8-2.2 c0.6-0.6,1.4-0.9,2.3-1c2.5-0.3,4.9-0.5,7.4-0.7L193.4,48z"/><path d="M1.9,18.2c0,1.1,0.4,2.1,1.1,2.9c1,0.6,2.1,0.9,3.3,0.7l6-0.3c0.6,0.1,1.2-0.1,1.7-0.5c0.7-0.7,0.2-2-0.8-2.5 c-1-0.3-2-0.3-3,0c-1,0.3-2,0.3-3-0.1c-1.5-0.8-1.7-2.9-1.8-4.6c0-2.2-0.6-4.4-1.7-6.3c-0.6-1-1.7-2.1-3-1.7S0.1,7.3,0.4,8.4 C1.1,11.6,1.4,15,1.9,18.2z"/><path d="M46.7,23.3c-2.2,0-4.5,1.2-6.7,0.5c-1.7-0.6-2.7-2.2-3.7-3.7c-2.2-3.6-4.6-7.2-6.9-10.8c-0.6-1-1.4-2-2.3-2.8 C25,4.9,22,5.4,21.2,8c-1,3.4-1.8,6.8-2.8,10.2c-0.3,0.8-0.3,1.6,0,2.4c0.6,1.1,2.4,0.9,3.4,0.1s1.7-1.9,2.8-2.6 c1.4-0.9,3.1-0.8,4.5,0.1c1,0.9,1.9,2,2.6,3.3c3.5,5,10.2,6.7,15.7,3.9c0.4-0.2,0.9-0.5,0.9-1C48.3,23.7,47.4,23.3,46.7,23.3z M27.4,14.9c-0.2,0.1-0.4,0.2-0.6,0.2c-0.8,0-2.3,0.4-2.3-0.8c0.2-1.2,0.7-2.3,1.5-3.2c0.7,1,1.2,2.1,1.4,3.3 C27.5,14.6,27.5,14.7,27.4,14.9z"/></svg></a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#formules">Formules</a>
+      <a href="#estimer">Estimer</a>
+      <a href="#visite">Visite 360°</a>
+      <a href="#galerie">Photos</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#devis">Devis</a>
+    </nav>
+    <a class="top-tel" href="tel:+33326075910" aria-label="Appeler La Caravane au 03 26 07 59 10">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      <span>03 26 07 59 10</span>
+    </a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="contenu">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="accueil">
+  <svg class="garland" id="garland" aria-hidden="true"></svg>
+  <button class="cord" id="cord" type="button" aria-pressed="true" aria-label="Éteindre les lumières de la salle" title="Tirez le cordon">
+    <span class="cord-in"><i></i><b></b></span>
+  </button>
+  <span class="cord-tip" id="cordTip" aria-hidden="true">Tirez pour éteindre</span>
+
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1><span>Ce soir,</span><span>la salle</span><span>est à vous.</span></h1>
+        <p class="hero-lead">Une guinguette pas comme les autres à Bétheny, aux portes de Reims : une vraie caravane au milieu de la salle, un bar, des guirlandes, et de la place pour 200 invités. Privatisez-la en entier ou réservez-y votre coin de fête.</p>
+        <div class="hero-cta">
+          <a class="btn btn-main" href="#estimer">Estimer ma soirée</a>
+          <a class="btn btn-ghost" href="#visite">Visiter la salle à 360°</a>
+        </div>
+      </div>
+      <figure class="hero-photo" data-photo>
+        <img src="salle-caravane.jpg" alt="La salle de La Caravane : une caravane verte illuminée, une fresque de palmiers au coucher du soleil et des tables dressées" width="1600" height="1200" fetchpriority="high">
+      </figure>
+    </div>
+
+    <ul class="facts">
+      <li><strong>≈ 200</strong><span>personnes debout</span></li>
+      <li><strong>≈ 150</strong><span>places assises</span></li>
+      <li><strong>Parking gratuit</strong><span>sur place, facile d'accès</span></li>
+      <li><strong>Un seul interlocuteur</strong><span>du devis à la fin de soirée</span></li>
+    </ul>
+  </div>
+</section>
+
+<div class="occ" aria-label="Les fêtes que nous accueillons">
+  <div class="occ-track">
+    <span>Anniversaire</span><span style="--c:var(--coral)">Repas d'entreprise</span><span style="--c:var(--leaf)">Pot de départ</span><span style="--c:var(--lagoon)">EVJF et EVJG</span><span style="--c:var(--cream)">Mariage</span>
+    <span aria-hidden="true">Anniversaire</span><span aria-hidden="true" style="--c:var(--coral)">Repas d'entreprise</span><span aria-hidden="true" style="--c:var(--leaf)">Pot de départ</span><span aria-hidden="true" style="--c:var(--lagoon)">EVJF et EVJG</span><span aria-hidden="true" style="--c:var(--cream)">Mariage</span>
+  </div>
+</div>
+
+<!-- ================= FORMULES ================= -->
+<section class="band" id="formules">
+  <div class="wrap">
+    <div class="band-head">
+      <h2>Toute la salle, ou juste votre coin de fête</h2>
+      <p>Deux façons de venir : La Caravane rien que pour vous, ou un espace réservé à votre groupe pendant une soirée ouverte au public.</p>
+    </div>
+
+    <div class="switch" role="tablist" aria-label="Choisir une formule">
+      <button role="tab" id="tab-exclu" aria-controls="pan-exclu" aria-selected="true" data-formule="exclu">Exclusivité</button>
+      <button role="tab" id="tab-conviv" aria-controls="pan-conviv" aria-selected="false" data-formule="conviv" tabindex="-1">Convivialité</button>
+    </div>
+
+    <!-- Exclusivité -->
+    <div class="formule" id="pan-exclu" role="tabpanel" aria-labelledby="tab-exclu">
+      <div>
+        <p class="formule-lead">Vous privatisez La Caravane « à nu » : le lieu est à vous le temps de votre événement, et vous l'organisez comme vous voulez.</p>
+        <ul class="incl">
+          <li><span><strong>La salle à votre entière disposition</strong>, mobilier et vaisselle compris.</span></li>
+          <li><span><strong>Aucun droit de bouchon.</strong> Vous pouvez apporter vos propres boissons.</span></li>
+          <li><span><strong>Son et lumière déjà installés.</strong></span></li>
+          <li><span><strong>Côté cuisine, vous choisissez :</strong> vos propres préparations, nos formules traiteur <a href="https://www.lesplatsdusoleil.fr/" target="_blank" rel="noopener">Cuisin'&amp;Soleil</a>, ou le traiteur de votre choix (sous réserve et sous conditions).</span></li>
+          <li><span><strong>DJ professionnel, ou pas de DJ.</strong> Tarifs négociés, facturation séparée.</span></li>
+          <li><span><strong>Décoration libre :</strong> salle, tables, ballons. Seule exception, les confettis.</span></li>
+          <li><span><strong>Quelqu'un de l'équipe sur place</strong> pour vous accompagner pendant la soirée.</span></li>
+          <li><span><strong>Devis personnalisé</strong> et parking gratuit pour vos invités.</span></li>
+        </ul>
+      </div>
+      <div class="formule-side">
+        <figure class="shot" data-photo><img loading="lazy" src="tables-guirlandes.jpg" alt="Les grandes tables de la salle sous les guirlandes et les lampions" width="1500" height="1001"></figure>
+        <div class="usage">
+          <div class="switch" role="group" aria-label="Type d'événement">
+            <button type="button" aria-pressed="true" data-usage="fete">Pour la fête</button>
+            <button type="button" aria-pressed="false" data-usage="travail">Pour le travail</button>
+          </div>
+          <p data-usage-text="fete">Anniversaire, mariage, EVJF, pot de départ : vous décorez vos tables, vous amenez votre playlist ou notre DJ, et l'équipe reste à portée de main si vous avez besoin d'elle.</p>
+          <p data-usage-text="travail" hidden>En semaine, La Caravane accueille aussi vos réunions et journées d'équipe : accueil petit-déjeuner, déjeuner sur place, matériel à disposition. Les formules s'adaptent à votre programme, demandez-les dans votre devis.</p>
+        </div>
+        <figure class="shot" data-photo><img loading="lazy" src="bar-champagne.jpg" alt="Le bar de La Caravane et son comptoir « Life is Champagne »" width="1500" height="1001"></figure>
+      </div>
+    </div>
+
+    <!-- Convivialité -->
+    <div class="formule" id="pan-conviv" role="tabpanel" aria-labelledby="tab-conviv" hidden>
+      <div>
+        <p class="formule-lead">Pendant une soirée ouverte au public, un espace est réservé à votre groupe, <em>à partir de 30 personnes</em>. Vous profitez de l'ambiance sans louer toute la salle.</p>
+        <ul class="incl">
+          <li><span><strong>Notre DJ aux platines</strong> pour toute la soirée.</span></li>
+          <li><span><strong>Un espace dédié</strong>, avec vos tables décorées à votre goût.</span></li>
+          <li><span><strong>Votre champagne est le bienvenu</strong> (et lui seulement) : droit de bouchon de 7 € TTC par bouteille ouverte.</span></li>
+          <li><span><strong>Salle partagée ou non</strong> avec d'autres groupes, selon la soirée.</span></li>
+        </ul>
+        <figure class="shot" data-photo style="margin-top:28px"><img loading="lazy" src="buffet.jpg" alt="Buffet de petites navettes garnies et de brochettes" width="1500" height="1125"></figure>
+      </div>
+      <div class="board">
+        <h3>La carte des formules conviviales</h3>
+        <div class="board-tabs" role="tablist" aria-label="Choisir un menu" style="margin-top:18px">
+          <button role="tab" aria-selected="true" data-menu="conviviale">La Conviviale</button>
+          <button role="tab" aria-selected="false" data-menu="argent" tabindex="-1">Argent</button>
+          <button role="tab" aria-selected="false" data-menu="or" tabindex="-1">Or</button>
+          <button role="tab" aria-selected="false" data-menu="buffet" tabindex="-1">Buffet froid</button>
+        </div>
+        <div id="board" aria-live="polite">
+          <p class="board-price"><strong id="boardPrice">27 €</strong><span id="boardUnit">TTC par personne, hors boissons</span></p>
+          <dl class="courses" id="boardCourses"></dl>
+        </div>
+        <p class="board-note">Les plats chauds sont préparés avec <a href="https://www.lesplatsdusoleil.fr/" target="_blank" rel="noopener" style="color:var(--lagoon)">Cuisin'&amp;Soleil</a>. Donnez-nous vos choix de plats et de desserts à l'avance, pour qu'ils soient préparés dans les meilleures conditions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ESTIMATION ================= -->
+<section class="band estim" id="estimer">
+  <div class="wrap">
+    <div class="band-head">
+      <h2>Composez votre soirée</h2>
+      <p>Réglez les curseurs : le ticket se met à jour, et vos choix sont repris dans la demande de devis.</p>
+    </div>
+
+    <div class="estim-grid">
+      <form id="config" onsubmit="return false">
+        <fieldset class="field-set">
+          <legend>Qu'est-ce qu'on fête ?</legend>
+          <div class="chips" id="occChips"></div>
+        </fieldset>
+
+        <div class="field-set">
+          <div class="guests-row">
+            <label class="lbl" for="guests" style="margin:0">Combien d'invités ?</label>
+            <output for="guests" id="guestsOut">80<small>personnes</small></output>
+          </div>
+          <input type="range" id="guests" min="10" max="200" step="5" value="80">
+          <div class="room" id="room" aria-hidden="true"></div>
+          <p class="room-note" id="roomNote" aria-live="polite"></p>
+        </div>
+
+        <fieldset class="field-set">
+          <legend>Quelle formule ?</legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="formule" value="exclu" checked><span>Exclusivité, toute la salle</span></label>
+            <label class="chip"><input type="radio" name="formule" value="conviv"><span>Convivialité, un espace dédié</span></label>
+          </div>
+        </fieldset>
+
+        <div class="sub" id="subExclu">
+          <div class="pair">
+            <fieldset class="field-set">
+              <legend>Animation</legend>
+              <div class="chips">
+                <label class="chip"><input type="radio" name="dj" value="1" checked><span>Avec DJ</span></label>
+                <label class="chip"><input type="radio" name="dj" value="0"><span>Sans DJ</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="field-set">
+              <legend>Repas</legend>
+              <div class="chips">
+                <label class="chip"><input type="radio" name="traiteur" value="1"><span>Avec traiteur</span></label>
+                <label class="chip"><input type="radio" name="traiteur" value="0" checked><span>Sans traiteur</span></label>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+
+        <div class="sub" id="subConviv" hidden>
+          <fieldset class="field-set">
+            <legend>Quel menu ?</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="menu" value="conviviale" checked><span>La Conviviale, 27 €</span></label>
+              <label class="chip"><input type="radio" name="menu" value="argent"><span>Argent, 32 €</span></label>
+              <label class="chip"><input type="radio" name="menu" value="or"><span>Or, 43 €</span></label>
+              <label class="chip"><input type="radio" name="menu" value="buffet"><span>Buffet froid, dès 35 €</span></label>
+            </div>
+          </fieldset>
+          <div class="field-set">
+            <span class="lbl" id="btlLbl">Bouteilles de champagne que vous apportez</span>
+            <div class="stepper" role="group" aria-labelledby="btlLbl">
+              <button type="button" id="btlMinus" aria-label="Une bouteille de moins">−</button>
+              <output id="btlOut" aria-live="polite">0</output>
+              <button type="button" id="btlPlus" aria-label="Une bouteille de plus">+</button>
+            </div>
+            <span class="hint">Droit de bouchon : 7 € TTC par bouteille ouverte.</span>
+          </div>
+        </div>
+      </form>
+
+      <aside class="ticket" aria-label="Récapitulatif de votre soirée">
+        <h3 id="tkTitle">Votre soirée</h3>
+        <dl class="ticket-lines" id="tkLines"></dl>
+        <div class="ticket-warn" id="tkWarn" hidden></div>
+        <div class="ticket-total">
+          <p><span id="tkLabel">Estimation</span><span style="text-align:right"><strong id="tkTotal">Sur devis</strong><small id="tkSmall"></small></span></p>
+          <a class="btn btn-ink" href="#devis" id="tkGo">Demander ce devis</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VISITE 360 ================= -->
+<section class="band" id="visite">
+  <div class="wrap">
+    <div class="band-head">
+      <h2>Faites le tour de la salle sans bouger</h2>
+      <p>La visite virtuelle vous montre le bar, la cantine, la caravane et les tables comme si vous y étiez.</p>
+    </div>
+    <div class="tour" id="tour" data-photo>
+      <img loading="lazy" src="salle-lumieres.jpg" alt="Vue d'ensemble de la salle éclairée en rose et violet" width="1600" height="1200">
+      <div class="tour-veil" id="tourVeil">
+        <button class="tour-go" id="tourGo" type="button" aria-label="Lancer la visite virtuelle à 360 degrés">360°</button>
+        <p>Lancer la visite virtuelle. Faites glisser l'image pour regarder autour de vous.</p>
+      </div>
+    </div>
+    <p class="tour-alt">La visite ne s'affiche pas ? <a href="#" target="_blank" rel="noopener">Ouvrez-la dans un nouvel onglet</a>.</p>
+  </div>
+</section>
+
+<!-- ================= GALERIE ================= -->
+<section class="band" id="galerie" style="padding-top:0">
+  <div class="wrap gal-head">
+    <h2>La Caravane en fête</h2>
+    <div class="gal-nav">
+      <button type="button" id="galPrev" aria-label="Photos précédentes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <button type="button" id="galNext" aria-label="Photos suivantes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+  <div class="strip" id="strip" tabindex="0" aria-label="Galerie de photos, faites défiler horizontalement"></div>
+</section>
+
+<dialog class="box" id="box" aria-label="Photo en grand">
+  <div class="box-in">
+    <button class="box-btn box-prev" id="boxPrev" type="button" aria-label="Photo précédente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <img id="boxImg" alt="">
+    <button class="box-btn box-next" id="boxNext" type="button" aria-label="Photo suivante"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
+    <p id="boxCap"></p>
+  </div>
+  <button class="box-btn box-close" id="boxClose" type="button" aria-label="Fermer la photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+</dialog>
+
+<!-- ================= AGENDA ================= -->
+<section class="band" id="agenda" style="padding-top:0">
+  <div class="wrap agenda">
+    <div class="band-head" style="margin:0">
+      <h2>Les soirées ouvertes à tous</h2>
+      <p>Concerts, sets DJ, soirées dansantes : La Caravane ouvre aussi ses portes au public. Les prochaines dates sont annoncées sur nos réseaux, et vous pouvez réserver votre table par téléphone.</p>
+    </div>
+    <div class="agenda-links">
+      <a href="https://www.facebook.com/lacaravane.restaurant" target="_blank" rel="noopener" style="--c:var(--lagoon)"><span><strong>Facebook</strong><span>Le programme et les événements à venir</span></span><i></i></a>
+      <a href="https://www.instagram.com/lacaravane51/" target="_blank" rel="noopener" style="--c:var(--coral)"><span><strong>Instagram</strong><span>@lacaravane51, les soirées en images</span></span><i></i></a>
+      <a href="tel:+33326075910" style="--c:var(--bulb)"><span><strong>03 26 07 59 10</strong><span>Réserver une table pour une soirée</span></span><i></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DEVIS ================= -->
+<section class="band devis" id="devis">
+  <div class="wrap devis-grid">
+    <div>
+      <h2>Demandez votre devis</h2>
+      <p class="devis-intro">Dites-nous qui vous êtes et quand vous voulez venir. Nous revenons vers vous avec un devis personnalisé.</p>
+      <div class="recap">
+        <p id="recapText"></p>
+        <a href="#estimer">Modifier ma soirée</a>
+      </div>
+      <div class="direct">
+        <span>Vous préférez en parler ?</span>
+        <a href="tel:+33326075910">03 26 07 59 10</a>
+        <span><a href="mailto:la.caravane@orange.fr" style="font:inherit;color:inherit;text-decoration:underline">la.caravane@orange.fr</a></span>
+      </div>
+    </div>
+
+    <form class="form" id="form" novalidate>
+      <div class="f"><label for="prenom">Prénom</label><input id="prenom" name="prenom" autocomplete="given-name" required aria-describedby="e-prenom"><span class="err" id="e-prenom"></span></div>
+      <div class="f"><label for="nom">Nom</label><input id="nom" name="nom" autocomplete="family-name" required aria-describedby="e-nom"><span class="err" id="e-nom"></span></div>
+      <fieldset class="f full">
+        <legend>Vous êtes</legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="profil" value="Un particulier" checked><span>Un particulier</span></label>
+          <label class="chip"><input type="radio" name="profil" value="Une entreprise"><span>Une entreprise</span></label>
+          <label class="chip"><input type="radio" name="profil" value="Une association"><span>Une association</span></label>
+          <label class="chip"><input type="radio" name="profil" value="Un groupe (à partir de 20 personnes)"><span>Un groupe, à partir de 20 personnes</span></label>
+        </div>
+      </fieldset>
+      <div class="f full" id="orgField" hidden><label for="org">Entreprise ou organisation</label><input id="org" name="org" autocomplete="organization" aria-describedby="e-org"><span class="err" id="e-org"></span></div>
+      <div class="f"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="e-email"><span class="err" id="e-email"></span></div>
+      <div class="f"><label for="tel">Téléphone</label><input id="tel" name="tel" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="e-tel"><span class="err" id="e-tel"></span></div>
+      <div class="f full"><label for="date">Date souhaitée</label><input id="date" name="date" type="date" aria-describedby="e-date"><span class="err" id="e-date"></span></div>
+      <div class="f full"><label for="msg">Votre projet en quelques mots</label><textarea id="msg" name="msg" required aria-describedby="e-msg" placeholder="Horaires, ambiance, repas, questions…"></textarea><span class="err" id="e-msg"></span></div>
+      <div class="f full">
+        <label class="consent"><input type="checkbox" id="ok" name="ok" required aria-describedby="e-ok"><span>J'accepte que les informations saisies soient utilisées pour me recontacter dans le cadre de ma demande. <a href="https://lacaravane-reims.fr/politique-de-confidentialite">Politique de confidentialité</a></span></label>
+        <span class="err" id="e-ok"></span>
+      </div>
+      <div class="form-end">
+        <button class="btn btn-ink" type="submit" id="send">Envoyer ma demande</button>
+      </div>
+      <div class="status" id="status" role="status" hidden></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="#accueil" aria-label="La Caravane"><svg viewBox="0 0 322.3 66.2" fill="currentColor" aria-hidden="true" focusable="false"><path d="M55.3,32.4c-0.4-7.7,0.6-15,5.3-21.4c3.2-4.5,7.9-7.8,13.3-9.4c9.2-2.6,18.3-1.9,27.3,0.4 c5.1,1.3,9.6,4.2,12.9,8.2c3.6,4.3,3.2,8.5,0.4,13c-3.2,5.4-8.4,7.7-14.6,7.9c-4.7,0.1-9.2-0.4-13.4-2.8c-2.6-1.4-4.7-3.7-5.9-6.4 c-1.3-3.3,0.9-8.4,4.1-10.1c2.1-1.1,4.5-1.5,6.8-1.3c0.6,0.1,1.2,0.3,1.7,0.6c0.8,0.4,1.1,1.4,0.7,2.2c-0.2,0.4-0.5,0.7-0.9,0.8 c-0.3,0.2-0.7,0.3-1.1,0.4c-0.5,0.1-1.1,0.3-1.6,0.4c-1.9,0.2-3.4,1.5-3.8,3.4c-0.4,2,0.9,3.7,2.5,4.7c3.4,2.2,7.5,3,11.5,2.1 c1.9-0.4,3.7-1.2,5.4-2.2c3.7-2.1,5-6.7,2.9-10.4c-0.3-0.5-0.6-0.9-0.9-1.3c-2.7-3.3-6.2-5.1-10.2-6.4c-5-1.5-10.2-1.9-15.3-1.3 c-2.5,0.3-4.9,1.4-7.3,2.3c-3.5,1.3-6.4,3.7-8.4,6.9c-2.1,3.2-3.6,6.8-4.2,10.6c-0.9,5-1.2,10.1-1,15.2c0.1,5.5,2.4,10.8,6.5,14.6 c2.6,2.4,5.4,4.7,9.1,5.6c2.5,0.6,4.8,1.8,7.4,1.9c6.4,0.4,12.7-1.7,17.5-6c2.5-2.4,2.5-6.4,0.1-8.9c0,0-0.1-0.1-0.2-0.1 c-0.8-0.8-1.6-1.4-2.4-2.2c-0.9-0.7-1.3-1.8-1.1-2.9c0.3-1.2,1.3-1.5,2.4-1.7c2.4-0.4,4.9,0.3,6.7,2.1c3.2,2.9,4,6.5,3,10.7 c-1.4,6.2-5.9,9.6-11.2,12c-6.1,2.8-12.5,3-19.1,2.2c-4.3-0.6-8.5-2-12.2-4.4c-3.5-2.2-6.3-5.3-8.2-8.9c-2.8-5.2-4.3-11-4.4-16.9 C55.2,34.6,55.3,33.5,55.3,32.4z"/><path d="M153.7,65.4c-3.9,0.4-7.2-0.3-9.9-2.8c-3.1-2.7-5.2-6-5.4-10.3c-0.1-1.6-0.3-3.3-0.5-4.9 c-0.3-2.1-1.6-3.2-3.7-3.7c-2.7-0.6-5.2-0.5-6.9,2.1c-0.5,0.9-0.9,1.8-1.1,2.8c-0.6,2.1-2.6,3.4-4.7,3.1c-1.4,0.1-2.7-1-2.8-2.4 c0-0.1,0-0.3,0-0.4c0-0.8,0.2-1.6,0.4-2.3c0.9-2.5,1.7-5,2.8-7.5c1.6-3.4,2.3-7,3.2-10.5c0.6-2.3,1.4-4.6,2.2-6.9 c0.6-1.8,1.3-3.5,1.9-5.3c0.1-0.2,0.1-0.5,0.2-0.7c1.3-3.5,4.1-4,6.7-1.5c1.2,1.2,2.1,2.7,2.6,4.4c2.5,7.4,4.3,15,5.5,22.7 c0.8,4.6,2,9.1,3.4,13.6c1.5,4.8,5.3,6.3,10,4.4c1.2-0.5,2.3-0.9,3.5-1.3c0.4-0.1,0.7-0.3,1.1-0.3c1.3-0.4,2.8,0.3,3.3,1.5 c0.4,1.3-0.1,2.7-1.3,3.5c-2.4,1.6-5.1,2.5-7.9,2.7C155.5,65.4,154.4,65.4,153.7,65.4z M132.6,35.6v0.1c0.8-0.1,1.5-0.2,2.3-0.2 c1.5,0.1,1.5-0.6,1.3-1.7c-0.6-2.4-1.1-4.7-1.7-7c-0.1-0.3-0.4-0.5-0.7-0.8c-0.3,0.2-0.6,0.5-0.8,0.8c-1.1,2.5-2.2,5-3.2,7.5 c-0.6,1.4-0.3,1.7,1.3,1.5C131.7,35.7,132.1,35.7,132.6,35.6z"/><path d="M268.5,49.7c0.1-4.2,0.3-8.4,0.4-12.6c0.1-3.9,0-7.8,0-11.7c0-2.5-0.1-5,0.9-7.4c0.7-1.7,1.2-2,3-1.7 c2.4,0.3,4.3,1.3,5.2,3.8c0.2,0.4,0.4,0.8,0.7,1.2c2.7,4.1,4.8,8.6,6.1,13.3c0.1,0.3,0.2,0.6,0.3,0.9c0.2,0.3,0.4,0.4,0.7,0.5 c0.3-0.1,0.5-0.2,0.7-0.5c0.2-0.7,0.3-1.4,0.4-2.1c0-4.2-0.1-8.4-0.1-12.6c0-1.2,0.3-2.3,0.9-3.3c1.3-1.4,3.5-1.5,4.9-0.2 c0.5,0.5,0.9,1.1,1.1,1.9c0.5,2.8,0.7,5.6,0.8,8.4c0,1.2-0.1,2.5-0.2,3.7c-0.4,6.5-0.7,13.1-1.1,19.6c-0.1,0.7-0.2,1.4-0.4,2.1 c-0.3,1.4-1.6,2.3-3,2.1c-2.3-0.1-4.1-0.9-4.9-3.2c-1.1-3-2.2-6-3.3-9c-0.8-2.3-1.6-4.6-2.5-6.8c-0.2-0.4-0.4-0.8-0.7-1.2 c-0.5-0.6-1.1-0.5-1.4,0.3c-0.1,0.5-0.2,1.1-0.2,1.6c-0.5,5-0.9,10-1.4,14.9c-0.3,2.7-1.1,3.3-3.5,3.6c-1.6,0.3-3.1-0.7-3.4-2.3 c0-0.1,0-0.2,0-0.3c-0.1-0.9-0.1-1.9,0-2.8L268.5,49.7z"/><path d="M148.2,18.2c-1.2-0.1-2.5-0.2-3.7-0.4c-0.4-0.1-0.7-0.5-1-0.8c0.3-0.3,0.6-0.7,1-0.8c4.2-1,8.3-2,12.6-2.8 c4.8-0.9,9.6-0.9,14.2,1.3c4.5,2.3,6.8,7.5,5.3,12.4c-0.6,2.2-1.8,4.2-3.4,5.8c-1.5,1.3-1.5,3-1.1,4.8c0.8,3,1.8,6,2.6,9 c0.4,1.3,0.6,2.7,1,4.1c0.3,0.9-0.1,1.8-1,2.1c-0.1,0-0.2,0.1-0.3,0.1c-2.5,1.1-5.5-0.1-6.6-2.6c-0.1-0.3-0.2-0.5-0.3-0.8 c-0.8-2.8-1.4-5.6-2.2-8.4c-0.3-1.4-0.9-2.6-1.8-3.8c-1.4-1.7-3.2-1.4-4.1,0.6c-0.5,1.2-0.8,2.4-0.9,3.6c-0.4,2.8-0.6,5.6-0.8,8.4 c0,1.3-0.8,2.4-2.1,2.8c-1.6,0.5-3.4,0.5-4.4-0.8c-0.8-1-0.9-2.6-0.9-4c0-1.5,0.5-3.1,0.6-4.7c0.3-4.9,0.5-9.8,0.7-14.7 c0.1-2.8,0-5.6,0.1-8.4c0-1.6,0-2.2-2.4-2.2c-0.4,0-0.8,0-1.2,0.1L148.2,18.2z M159.1,22.5c0.1,1,0.2,2.5,0.4,4.1 c0.1,0.9,0.4,1.8,1.5,2.1c2.5,0.9,5.3,0.2,7.1-1.8c1.4-1.2,2-3.1,1.5-4.9c-0.5-1.7-1.9-3-3.7-3.2c-1.2-0.2-2.5-0.3-3.7-0.3 C159.4,18.6,159,19.1,159.1,22.5z"/><path d="M200.9,3.2c2.6,0.5,5.2,0.8,7.7,1.5c2.9,0.8,5.3,2.8,6.7,5.5c2.7,4.7,4.6,9.7,5.9,15c1,3.9,1.7,7.9,2.5,11.9 c0.1,0.5,0.2,1.1,0.4,1.6c0.3,0.6,0.7,0.5,1,0.1c0.2-0.3,0.3-0.6,0.3-0.9c1.2-4.9,2.5-9.9,3.7-14.8c0.5-2,1-3.9,1.6-5.9 c0.2-1.3,1.4-2.2,2.7-2c0,0,0,0,0,0c0.6,0,1.1,0,1.6,0.1c1.9,0.2,2.7,1.1,2.3,3c-1.6,6.8-3,13.6-5.5,20.1c-1.1,3-2.1,6.1-3.1,9.1 c-0.5,1.3-0.9,2.7-1.5,4c-0.8,2.3-3.2,3.5-5.5,2.8c-0.2-0.1-0.3-0.1-0.5-0.2c-0.8-0.5-1.5-1.2-1.8-2c-0.4-1-0.7-2.1-0.8-3.2 c-0.5-3.7-0.8-7.4-1.4-11.1c-0.6-4.9-1.7-9.7-3.3-14.4c-1.2-3.5-2.5-6.9-3.8-10.3c-0.5-1.2-1.2-2.4-2-3.4 c-1.9-2.4-4.5-2.9-7.4-2.6c-2,0.2-4,0.6-6,0.8c-1.6,0.2-2.8-0.3-3-1.2s0.6-1.8,2.3-2.2C196.3,3.9,198.6,3.6,200.9,3.2z"/><path d="M259,55.1c-2.6,0-3.9-1-4.2-3.7c0-0.4-0.1-0.8-0.2-1.2c-0.6-3.2-1.5-4-4.8-4.4c-2.5-0.4-4.9,1-5.8,3.3 c-0.2,0.4-0.4,0.9-0.5,1.3c-0.6,2.6-2.7,3.3-5,3.5c-2.6,0.3-3.7-1.3-2.8-3.8c2.5-7.3,5-14.6,7.4-22c0.8-2.8,1.5-5.7,1.9-8.7 c0.5-2.7,0.9-3.3,3.6-3.8s4.5,0.2,5.6,2.3c0.3,0.6,0.5,1.2,0.7,1.8c2.6,7.9,4.7,15.9,6.1,24c0.4,2.2,1,4.4,1.5,6.6 C263.1,53.1,261.7,55,259,55.1z M249.4,38.1l2.3-0.2h0.2c1.2-0.1,1.9-0.7,1.6-1.8c-0.6-2-1.3-4-2.1-5.9c-0.1-0.3-0.7-0.6-0.9-0.5 c-0.4,0.2-0.7,0.6-0.8,1c-0.5,1.2-1,2.4-1.4,3.6c-0.3,0.6-0.7,1.2-0.9,1.9c-0.5,1.2-0.2,1.7,1.1,1.9 C248.8,38.1,249.1,38.1,249.4,38.1L249.4,38.1z"/><path d="M201.7,44l-11.9-0.2c-0.5,0-0.9-0.1-1.4-0.1c-3.5-0.5-4.2-1.8-3.1-5.3c2-6.2,3.9-12.3,5.8-18.5 c0.5-1.7,0.9-3.5,1.3-5.2c0.6-2.4,1.6-3.4,4.1-3.3c2.3,0,4.1,0.6,5.2,3.1c2.6,5.6,4.5,11.5,5.7,17.5c0.5,2.7,1.2,5.3,1.7,8 s0.1,3.1-2.6,3.6c-1.6,0.3-3.2,0.5-4.9,0.7L201.7,44z M199.1,34.2h0.8c2.2,0,2.5-0.4,1.9-2.4c-0.4-1.3-0.9-2.7-1.4-4 s-1-2.8-1.6-4.1c-0.2-0.3-0.5-0.5-0.9-0.6c-0.2,0-0.6,0.3-0.6,0.5c-1.2,3.1-2.3,6.3-3.4,9.4c-0.4,1.1,0.2,1.5,1.1,1.4 C196.4,34.4,197.8,34.2,199.1,34.2L199.1,34.2z"/><path d="M316.9,20.6c-1.2-0.1-2.5-0.1-3.7,0c-3,0.4-4.1,1.5-4.2,4.5c0,1.6,0.2,3.3,0.5,4.9c0.2,1.3,1.2,2.3,2.5,2.5 c1.2,0.2,2.3,0.3,3.5,0.6c1.7,0.4,3.3,0.9,4.9,1.5c0.4,0.1,0.9,0.8,0.8,1.2c-0.1,0.6-0.5,1.1-1,1.4c-1,0.3-2.1,0.5-3.2,0.6 c-1.5,0.1-3,0-4.5,0.1c-2.7,0.2-3.9,1.5-4,4.2c-0.1,1.4-0.2,2.8-0.2,4.2c0.1,2.9,1.4,4,4.3,4.1c1.2,0,2.4,0.1,3.5,0 c1.7,0,3.2,0.6,4.5,1.7c0.7,0.4,1,1.4,0.5,2.1c-0.2,0.4-0.6,0.7-1.1,0.7c-1.3,0.3-2.6,0.6-3.9,0.6c-3.4,0.2-6.7,0.3-10.1,0.4 s-6-2.2-5.2-5.7c0.4-2.5,0.7-4.9,0.8-7.4c0.3-4.7,0.5-9.3,0.6-14c0-2.5-0.1-5.1-0.4-7.7c-0.2-3,0.6-4.2,3.6-4.6 c1.5-0.1,2.9,0,4.4,0.1l10.1,0.1c1,0,2.1,0,2.3,1.4c0.2,1.1-0.4,1.9-1.9,2.2c-0.7,0.2-1.4,0.3-2.1,0.4c-0.5,0.1-0.9,0.1-1.4,0.1 L316.9,20.6z"/><path d="M193.4,48c4.4,0.2,8.9,0.3,13.3,0.5c0.8,0.1,1.7,0.4,2.4,0.8c0.9,0.4,1.3,1.5,1,2.4c-0.1,1-0.9,1.7-1.8,1.9 c-2.1,0.2-4.2,0.5-6.3,0.5c-4.1,0-8.2-0.2-12.4-0.4c-1.7-0.1-3.4-0.2-5.1-0.6c-0.6-0.1-1.6-0.8-1.6-1.3c0-0.8,0.3-1.6,0.8-2.2 c0.6-0.6,1.4-0.9,2.3-1c2.5-0.3,4.9-0.5,7.4-0.7L193.4,48z"/><path d="M1.9,18.2c0,1.1,0.4,2.1,1.1,2.9c1,0.6,2.1,0.9,3.3,0.7l6-0.3c0.6,0.1,1.2-0.1,1.7-0.5c0.7-0.7,0.2-2-0.8-2.5 c-1-0.3-2-0.3-3,0c-1,0.3-2,0.3-3-0.1c-1.5-0.8-1.7-2.9-1.8-4.6c0-2.2-0.6-4.4-1.7-6.3c-0.6-1-1.7-2.1-3-1.7S0.1,7.3,0.4,8.4 C1.1,11.6,1.4,15,1.9,18.2z"/><path d="M46.7,23.3c-2.2,0-4.5,1.2-6.7,0.5c-1.7-0.6-2.7-2.2-3.7-3.7c-2.2-3.6-4.6-7.2-6.9-10.8c-0.6-1-1.4-2-2.3-2.8 C25,4.9,22,5.4,21.2,8c-1,3.4-1.8,6.8-2.8,10.2c-0.3,0.8-0.3,1.6,0,2.4c0.6,1.1,2.4,0.9,3.4,0.1s1.7-1.9,2.8-2.6 c1.4-0.9,3.1-0.8,4.5,0.1c1,0.9,1.9,2,2.6,3.3c3.5,5,10.2,6.7,15.7,3.9c0.4-0.2,0.9-0.5,0.9-1C48.3,23.7,47.4,23.3,46.7,23.3z M27.4,14.9c-0.2,0.1-0.4,0.2-0.6,0.2c-0.8,0-2.3,0.4-2.3-0.8c0.2-1.2,0.7-2.3,1.5-3.2c0.7,1,1.2,2.1,1.4,3.3 C27.5,14.6,27.5,14.7,27.4,14.9z"/></svg></a>
+        <address>
+          17 rue des Docks Rémois, 51450 Bétheny<br>
+          <a href="tel:+33326075910">03 26 07 59 10</a><br>
+          <a href="mailto:la.caravane@orange.fr">la.caravane@orange.fr</a><br>
+          <a href="https://www.google.com/maps/search/?api=1&query=La+Caravane+17+rue+des+Docks+R%C3%A9mois+51450+B%C3%A9theny" target="_blank" rel="noopener">Voir l'itinéraire</a>
+        </address>
+      </div>
+      <div>
+        <h3>Suivre La Caravane</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/lacaravane.restaurant" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/lacaravane51/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://lacaravane-reims.fr/vos-commentaires/">Donner votre avis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Partenaires</h3>
+        <ul>
+          <li><a href="https://lesplatsdusoleil.fr/" target="_blank" rel="noopener">Cuisin'&amp;Soleil, traiteur</a></li>
+          <li><a href="https://vizual-crea.fr" target="_blank" rel="noopener">ViZualCréa, photos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <p>Les soirées et événements se déroulent dans le respect des consignes d'hygiène et de sécurité en vigueur. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
+      <p><a href="https://lacaravane-reims.fr/mentions-legales">Mentions légales</a> &nbsp; <a href="https://lacaravane-reims.fr/politique-de-confidentialite">Politique de confidentialité</a></p>
+    </div>
+  </div>
+</footer>
+
+<div class="dock" id="dock">
+  <a class="btn btn-ghost" href="tel:+33326075910">Appeler</a>
+  <a class="btn btn-main" href="#devis">Demander un devis</a>
+</div>
+<div class="road" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210.76 208.09"><defs><style>.cv-1{fill:#faebd3;}.cv-2{fill:#e45e4f;}.cv-3{fill:#c6392e;}.cv-4{fill:#ff7d73;}.cv-5{fill:#4a1801;}.cv-6{fill:#fedb97;}.cv-7{fill:#ceae74;}.cv-8{fill:#917343;}.cv-9{fill:#914b29;}.cv-10,.cv-12,.cv-13{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cv-10,.cv-12{stroke:#4a1801;}.cv-10{stroke-width:0.96px;}.cv-11{fill:#ffb000;}.cv-12{stroke-width:1.18px;}.cv-13{stroke:#914b29;stroke-width:3.22px;}</style></defs><g id="Calque_2" data-name="Calque 2"><g id="OBJECTS"><path class="cv-1" d="M.06,138.64s-1-29.86,5.41-38.21l10.91,38.2Z"/><rect class="cv-1" x="1.21" y="53.24" width="209.54" height="135.66" rx="67.83"/><path class="cv-2" d="M3.46,138.33A68.09,68.09,0,0,0,69,188.89h73.89a68.09,68.09,0,0,0,65.58-50.56Z"/><path class="cv-3" d="M124.92,156.87h57.56A17.08,17.08,0,0,1,199.56,174v14a0,0,0,0,1,0,0H107.85a0,0,0,0,1,0,0V174A17.08,17.08,0,0,1,124.92,156.87Z"/><path class="cv-4" d="M180.78,152.78H126.63c-13.11,0-23.73,8.79-23.73,19.62v15.53c0,2.26,2.21,4.09,4.95,4.09h0c2.63,0,4.76-1.76,4.76-3.93l.19-9.41V172.4c0-6.31,6.19-11.43,13.83-11.43h54.15c7.64,0,13.83,5.12,13.83,11.43l.4,15.86c0,2.08,2,3.76,4.55,3.76h0c2.73,0,4.95-1.83,4.95-4.09V172.4C204.51,161.57,193.89,152.78,180.78,152.78Z"/><circle class="cv-5" cx="131.83" cy="188.29" r="19.8"/><circle class="cv-6" cx="131.83" cy="188.29" r="10.46"/><circle class="cv-7" cx="131.83" cy="188.29" r="4.74"/><circle class="cv-5" cx="174.2" cy="188.29" r="19.8"/><circle class="cv-6" cx="174.2" cy="188.29" r="10.46"/><circle class="cv-7" cx="174.2" cy="188.29" r="4.74"/><rect class="cv-7" x="92.47" y="82.9" width="86.68" height="42.62" rx="12.98"/><path class="cv-8" d="M160.05,107.92v0c-2.85-.63-5.82-1.24-8.32-2.82a15.93,15.93,0,0,1-5.33-6.41C143.85,93.87,142,88.39,142,82.9H129.85a47.91,47.91,0,0,1-4.33,15.8c-2.61,5.49-6.43,10.64-12.82,11.18v15.64h47.35Z"/><path class="cv-9" d="M188.38,131.68H91.59a4.35,4.35,0,0,1-4.34-4.34h0A4.35,4.35,0,0,1,91.59,123h96.79a4.34,4.34,0,0,1,4.33,4.33h0A4.35,4.35,0,0,1,188.38,131.68Z"/><path class="cv-10" d="M79.55,131.66c-.89-2.34-43.26-52.9-43.26-52.9"/><polygon class="cv-11" points="88.93 21.17 128.33 35.28 128.33 1.76 88.93 21.17"/><polyline class="cv-12" points="128.33 0.59 128.33 29.4 128.33 46.45"/><path class="cv-5" d="M137.73,52.92a9.43,9.43,0,0,0-18.69,0Z"/><rect class="cv-2" x="0.06" y="138.64" width="76.36" height="50.39"/><path class="cv-1" d="M189.06,146.39H83.46a1.35,1.35,0,0,1-1.34-1.34h0a1.35,1.35,0,0,1,1.34-1.34h105.6a1.34,1.34,0,0,1,1.34,1.34h0A1.34,1.34,0,0,1,189.06,146.39Z"/><path class="cv-1" d="M101.42,154.16H83.19a1.35,1.35,0,0,1-1.34-1.34h0a1.35,1.35,0,0,1,1.34-1.34h18.23a1.35,1.35,0,0,1,1.34,1.34h0A1.34,1.34,0,0,1,101.42,154.16Z"/><path class="cv-5" d="M39.65,77.78H63.24A10.43,10.43,0,0,1,73.67,88.21V178a0,0,0,0,1,0,0H28a0,0,0,0,1,0,0V89.45A11.67,11.67,0,0,1,39.65,77.78Z"/><rect class="cv-7" x="60.14" y="119.05" width="3.75" height="26.27"/><path class="cv-7" d="M67.11,122.27a4.83,4.83,0,1,1-4.82-4.83A4.82,4.82,0,0,1,67.11,122.27Z"/><path class="cv-1" d="M64.78,126.94l-9.6,8.72a1.24,1.24,0,0,1-1.74-.08h0a1.24,1.24,0,0,1,.09-1.74l9.6-8.72a1.24,1.24,0,0,1,1.74.09h0A1.23,1.23,0,0,1,64.78,126.94Z"/><path class="cv-1" d="M78.26,183.91H27a3.87,3.87,0,0,1-3.86-3.86h0A3.88,3.88,0,0,1,27,176.19H78.26a3.87,3.87,0,0,1,3.86,3.86h0A3.86,3.86,0,0,1,78.26,183.91Z"/><path class="cv-9" d="M83.73,190.88H25.84a3.76,3.76,0,0,1-3.75-3.75h0a3.76,3.76,0,0,1,3.75-3.75H83.73a3.76,3.76,0,0,1,3.75,3.75h0A3.76,3.76,0,0,1,83.73,190.88Z"/><line class="cv-13" x1="36.02" y1="188.74" x2="25.57" y2="202.41"/><line class="cv-13" x1="77.3" y1="189.81" x2="66.85" y2="203.48"/><line class="cv-13" x1="30.13" y1="197.31" x2="71.4" y2="197.31"/></g></g></svg></div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* =====================================================================
+     RÉGLAGES
+     FORM_ENDPOINT : URL qui reçoit la demande en POST (JSON).
+     Laissé vide, le formulaire ouvre la messagerie du visiteur avec
+     l'e-mail déjà rédigé pour CONTACT_EMAIL.
+     ===================================================================== */
+  var FORM_ENDPOINT = '';
+  var CONTACT_EMAIL = 'la.caravane@orange.fr';
+  var PHOTOS = '';
+  /* TOUR_URL : adresse d'une visite 360° intégrable en iframe (Kuula, Matterport, ou une page /visite du site).
+     L'ancienne adresse (vizual-crea.fr/visite360/ipanorama/virtualtour/lacaravane) renvoie une erreur 404
+     et interdit l'iframe : tant que TOUR_URL est vide, la section, le lien de menu et le bouton du hero sont masqués. */
+  var TOUR_URL = '';
+
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var root = document.documentElement;
+  var calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var euro = function (n) { return new Intl.NumberFormat('fr-FR').format(n) + ' €'; };
+
+  /* ---------- Données ---------- */
+  var OCCASIONS = ['Anniversaire', "Repas d'entreprise", 'Pot de départ', 'EVJF ou EVJG', 'Mariage', 'Autre fête'];
+  var CS = '<a href="https://www.lesplatsdusoleil.fr/" target="_blank" rel="noopener">spécialités Cuisin\'&amp;Soleil</a>';
+  var MENUS = {
+    conviviale: { nom: 'La Conviviale', prix: 27, des: false, plats: [
+      ['Accueil', 'Apéro dînatoire : assortiment de petites navettes garnies et canapés au saumon, 2 par personne.'],
+      ['Plat', 'Les ' + CS + ', 15 parts minimum par spécialité.'],
+      ['Dessert', 'Tarte aux fruits de saison préparée en pâtisserie, ou dessert à la carte.']] },
+    argent: { nom: 'La Conviviale Argent', prix: 32, des: false, plats: [
+      ['Accueil', 'Apéro dînatoire : assortiment de petites navettes garnies et canapés au saumon, 3 par personne.'],
+      ['Plat', 'Les ' + CS + ', 15 parts minimum par spécialité.'],
+      ['Dessert', 'Entremets aux fruits ou gâteau aux 3 chocolats, ou les deux, faits en pâtisserie.']] },
+    or: { nom: 'La Conviviale Or', prix: 43, des: false, plats: [
+      ['Accueil', 'Apéro dînatoire : assortiment de petites navettes garnies et canapés au saumon, 5 par personne.'],
+      ['Apéritif', 'Un verre au choix par personne.'],
+      ['Plat', 'Les ' + CS + ', 15 parts minimum par spécialité.'],
+      ['Dessert', 'Entremets aux fruits ou gâteau aux 3 chocolats, ou les deux, faits en pâtisserie.']] },
+    buffet: { nom: 'Buffet froid', prix: 35, des: true, plats: [
+      ['Buffet', 'Viandes froides, charcuterie fine, salades composées.'],
+      ['Sur demande', 'Saumon Bellevue et autres pièces : le devis est établi selon vos envies.']] }
+  };
+  var CORKAGE = 7, MIN_CONVIV = 30, SEATED = 150, MAX = 200;
+  var GALLERY = [
+    ['salle-caravane.jpg', 'La caravane et la fresque aux palmiers'],
+    ['tables-guirlandes.jpg', 'Les grandes tables sous les guirlandes'],
+    ['bar-champagne.jpg', 'Le bar « Life is Champagne »'],
+    ['salle-lumieres.jpg', 'La salle en lumières de fête'],
+    ['cantine.jpg', 'La Cantine et son comptoir'],
+    ['concert.jpg', 'Concert rock devant la caravane'],
+    ['buffet.jpg', 'Navettes garnies pour l\'apéro dînatoire'],
+    ['bar-jour.jpg', 'Le bar en plein jour'],
+    ['guitares.jpg', 'Guitares sur scène'],
+    ['salle-prete.jpg', 'La salle prête à recevoir'],
+    ['soiree-concert.jpg', 'Soirée concert à La Caravane']
+  ];
+
+  /* ---------- État partagé ---------- */
+  var state = { formule: 'exclu', menu: 'conviviale', guests: 80, occasion: OCCASIONS[0], bottles: 0, dj: true, traiteur: false };
+
+  /* =====================================================================
+     EN-TÊTE, MENU MOBILE, PROGRESSION
+     ===================================================================== */
+  var top = $('#top'), nav = $('#nav'), burger = $('#burger'), dock = $('#dock');
+  function closeNav() { nav.classList.remove('is-open'); top.classList.remove('is-open'); burger.setAttribute('aria-expanded', 'false'); burger.setAttribute('aria-label', 'Ouvrir le menu'); document.body.style.overflow = ''; }
+  burger.addEventListener('click', function () {
+    var open = !nav.classList.contains('is-open');
+    if (!open) return closeNav();
+    nav.classList.add('is-open'); top.classList.add('is-open'); burger.setAttribute('aria-expanded', 'true'); burger.setAttribute('aria-label', 'Fermer le menu'); document.body.style.overflow = 'hidden';
+  });
+  nav.addEventListener('click', function (e) { if (e.target.closest('a')) closeNav(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeNav(); });
+
+  var lastY = window.scrollY, scrollKick = 0;
+  function onScroll() {
+    var y = window.scrollY, max = document.documentElement.scrollHeight - window.innerHeight;
+    top.classList.toggle('is-stuck', y > 24);
+    dock.classList.toggle('is-on', y > window.innerHeight * 0.6);
+    root.style.setProperty('--prog', max > 0 ? (y / max).toFixed(4) : 0);
+    scrollKick += (y - lastY) * 0.012; lastY = y;
+    wake();
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  var links = $$('.nav a');
+  if ('IntersectionObserver' in window) {
+    var spy = new IntersectionObserver(function (es) {
+      es.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        links.forEach(function (a) { a.setAttribute('aria-current', a.getAttribute('href') === '#' + en.target.id ? 'true' : 'false'); });
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    $$('main section[id]').forEach(function (s) { spy.observe(s); });
+  }
+
+  /* =====================================================================
+     GUIRLANDE : ampoules suspendues, balancées par la souris et le défilement
+     ===================================================================== */
+  var NS = 'http://www.w3.org/2000/svg';
+  var svg = $('#garland'), hero = $('#accueil');
+  var COLORS = ['#FFC83D', '#FF7D73', '#7ED94B', '#58C4F0', '#FAEBD3'];
+  var bulbs = [], running = false, lastT = 0, heroVisible = true;
+
+  function el(name, attrs) { var n = document.createElementNS(NS, name); for (var k in attrs) n.setAttribute(k, attrs[k]); return n; }
+
+  function buildGarland() {
+    var w = hero.clientWidth, small = w < 700;
+    var litBefore = bulbs.map(function (b) { return b.lit; });
+    svg.innerHTML = ''; bulbs = [];
+    svg.setAttribute('viewBox', '0 0 ' + w + ' 230');
+    var defs = el('defs', {});
+    COLORS.forEach(function (c, i) {
+      var g = el('radialGradient', { id: 'halo' + i });
+      g.appendChild(el('stop', { offset: '0', 'stop-color': c, 'stop-opacity': '.75' }));
+      g.appendChild(el('stop', { offset: '.45', 'stop-color': c, 'stop-opacity': '.22' }));
+      g.appendChild(el('stop', { offset: '1', 'stop-color': c, 'stop-opacity': '0' }));
+      defs.appendChild(g);
+    });
+    svg.appendChild(defs);
+    var posts = small ? [-10, w * 0.52, w + 10] : [-10, w * 0.3, w * 0.64, w + 10];
+    var sags = small ? [58, 44] : [92, 70, 84];
+    var ys = small ? [18, 30, 12] : [16, 34, 22, 10];
+    var idx = 0;
+    for (var s = 0; s < posts.length - 1; s++) {
+      var x0 = posts[s], x1 = posts[s + 1], y0 = ys[s], y1 = ys[s + 1], cx = (x0 + x1) / 2, cy = (y0 + y1) / 2 + sags[s] * 2;
+      svg.appendChild(el('path', { 'class': 'wire', d: 'M' + x0 + ' ' + y0 + ' Q' + cx + ' ' + cy + ' ' + x1 + ' ' + y1 }));
+      var n = Math.max(3, Math.round((x1 - x0) / (small ? 58 : 74)));
+      for (var i = 1; i < n; i++) {
+        var t = i / n, u = 1 - t;
+        var x = u * u * x0 + 2 * u * t * cx + t * t * x1, y = u * u * y0 + 2 * u * t * cy + t * t * y1;
+        var ci = idx % COLORS.length;
+        var g2 = el('g', { 'class': 'b', style: '--c:' + COLORS[ci] });
+        g2.appendChild(el('circle', { 'class': 'halo', cx: 0, cy: 22, r: 44, fill: 'url(#halo' + ci + ')' }));
+        g2.appendChild(el('rect', { 'class': 'socket', x: -5, y: -1, width: 10, height: 11, rx: 2 }));
+        g2.appendChild(el('path', { 'class': 'glass', d: 'M-5 9 C-13 15 -13 33 0 34 C13 33 13 15 5 9 Z' }));
+        svg.appendChild(g2);
+        var b = { g: g2, x: x, y: y, a: 0, v: 0, lit: litBefore.length ? litBefore[idx] !== false : false };
+        g2.classList.toggle('is-lit', b.lit && root.dataset.lights === 'on');
+        (function (b) { g2.addEventListener('pointerdown', function () { b.lit = !b.lit; b.g.classList.toggle('is-lit', b.lit); b.v += (Math.random() > .5 ? 1 : -1) * 3; wake(); }); })(b);
+        bulbs.push(b); idx++;
+      }
+    }
+    draw();
+  }
+  function draw() { for (var i = 0; i < bulbs.length; i++) { var b = bulbs[i]; b.g.setAttribute('transform', 'translate(' + b.x.toFixed(1) + ' ' + b.y.toFixed(1) + ') rotate(' + (b.a * 57.3).toFixed(2) + ')'); } }
+  function tick(t) {
+    var dt = Math.min(0.032, (t - lastT) / 1000 || 0.016); lastT = t;
+    var energy = 0;
+    for (var i = 0; i < bulbs.length; i++) {
+      var b = bulbs[i];
+      b.v += scrollKick * (0.6 + (i % 3) * 0.25);
+      b.v += (-46 * b.a - 1.9 * b.v) * dt;
+      b.a += b.v * dt;
+      if (b.a > 1.1) { b.a = 1.1; b.v *= -0.4; } else if (b.a < -1.1) { b.a = -1.1; b.v *= -0.4; }
+      energy += Math.abs(b.a) + Math.abs(b.v) * 0.2;
+    }
+    scrollKick = 0; draw();
+    if (energy > 0.02 && heroVisible) requestAnimationFrame(tick); else running = false;
+  }
+  function wake() { if (running || calm || !heroVisible) return; running = true; lastT = performance.now(); requestAnimationFrame(tick); }
+
+  var px = null;
+  hero.addEventListener('pointermove', function (e) {
+    if (calm || e.pointerType === 'touch') return;
+    var r = hero.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
+    if (px !== null && y < 330) {
+      var vx = Math.max(-60, Math.min(60, x - px));
+      for (var i = 0; i < bulbs.length; i++) { var d = Math.abs(bulbs[i].x - x); if (d < 150) bulbs[i].v += vx * 0.035 * (1 - d / 150); }
+      wake();
+    }
+    px = x;
+  });
+  hero.addEventListener('pointerleave', function () { px = null; });
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { heroVisible = es[0].isIntersecting; }).observe(hero);
+  var rz; window.addEventListener('resize', function () { clearTimeout(rz); rz = setTimeout(buildGarland, 150); });
+
+  /* Allumage : une ampoule après l'autre au chargement */
+  function lightUp(stagger) {
+    bulbs.forEach(function (b, i) {
+      setTimeout(function () { b.lit = true; if (root.dataset.lights === 'on') b.g.classList.add('is-lit'); }, stagger ? 220 + i * 55 : 0);
+    });
+  }
+  function setLights(on) {
+    root.dataset.lights = on ? 'on' : 'off';
+    cord.setAttribute('aria-pressed', on ? 'true' : 'false');
+    cord.setAttribute('aria-label', on ? 'Éteindre les lumières de la salle' : 'Allumer les lumières de la salle');
+    $('#cordTip').textContent = on ? 'Tirez pour éteindre' : 'Tirez pour rallumer';
+    if (on) { bulbs.forEach(function (b) { b.lit = false; b.g.classList.remove('is-lit'); }); lightUp(!calm); }
+    else bulbs.forEach(function (b) { b.g.classList.remove('is-lit'); });
+    bulbs.forEach(function (b, i) { b.v += (i % 2 ? 1 : -1) * 1.2; }); wake();
+  }
+
+  /* Cordon : clic, clavier, ou tirer vers le bas */
+  var cord = $('#cord'), cordIn = $('.cord-in', cord), pull = null;
+  cord.addEventListener('pointerdown', function (e) { pull = { y: e.clientY, d: 0 }; cord.classList.add('is-held'); cord.setPointerCapture(e.pointerId); });
+  cord.addEventListener('pointermove', function (e) { if (!pull) return; pull.d = Math.max(0, Math.min(46, e.clientY - pull.y)); cordIn.style.transform = 'translateY(' + pull.d + 'px)'; });
+  function release(e) {
+    if (!pull) return;
+    var d = pull.d; pull = null; cord.classList.remove('is-held'); cordIn.style.transform = '';
+    if (d > 18) { cord.dataset.skip = '1'; setLights(root.dataset.lights !== 'on'); setTimeout(function () { delete cord.dataset.skip; }, 60); }
+  }
+  cord.addEventListener('pointerup', release); cord.addEventListener('pointercancel', release);
+  cord.addEventListener('click', function () {
+    if (cord.dataset.skip) return;
+    if (!calm) { cordIn.style.transform = 'translateY(30px)'; setTimeout(function () { cordIn.style.transform = ''; }, 140); }
+    setLights(root.dataset.lights !== 'on');
+  });
+
+  buildGarland(); lightUp(!calm);
+  if (!calm) setTimeout(function () { bulbs.forEach(function (b, i) { b.v += Math.sin(i * 1.7) * 1.6; }); wake(); }, 300);
+
+  /* =====================================================================
+     FORMULES : onglets, usage, carte des menus
+     ===================================================================== */
+  function tabKeys(list, pick) {
+    list.forEach(function (b, i) {
+      b.addEventListener('keydown', function (e) {
+        var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (!d) return; e.preventDefault();
+        var n = list[(i + d + list.length) % list.length]; n.focus(); pick(n);
+      });
+    });
+  }
+  var fTabs = $$('[data-formule]');
+  fTabs.forEach(function (b) { b.addEventListener('click', function () { set({ formule: b.dataset.formule }); }); });
+  tabKeys(fTabs, function (b) { set({ formule: b.dataset.formule }); });
+  var mTabs = $$('[data-menu]');
+  mTabs.forEach(function (b) { b.addEventListener('click', function () { set({ menu: b.dataset.menu }); }); });
+  tabKeys(mTabs, function (b) { set({ menu: b.dataset.menu }); });
+  $$('[data-usage]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      $$('[data-usage]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      $$('[data-usage-text]').forEach(function (p) { p.hidden = p.dataset.usageText !== b.dataset.usage; });
+    });
+  });
+
+  /* =====================================================================
+     ESTIMATION
+     ===================================================================== */
+  var occChips = $('#occChips');
+  occChips.innerHTML = OCCASIONS.map(function (o, i) {
+    return '<label class="chip"><input type="radio" name="occasion" value="' + o.replace(/"/g, '&quot;') + '"' + (i ? '' : ' checked') + '><span>' + o + '</span></label>';
+  }).join('');
+  var room = $('#room'); room.innerHTML = new Array(41).join('<i></i>'); var dots = $$('i', room);
+  var guests = $('#guests');
+
+  $('#config').addEventListener('change', function (e) {
+    var t = e.target;
+    if (t.name === 'occasion') set({ occasion: t.value });
+    if (t.name === 'formule') set({ formule: t.value });
+    if (t.name === 'menu') set({ menu: t.value });
+    if (t.name === 'dj') set({ dj: t.value === '1' });
+    if (t.name === 'traiteur') set({ traiteur: t.value === '1' });
+  });
+  guests.addEventListener('input', function () { set({ guests: +guests.value }); });
+  $('#btlMinus').addEventListener('click', function () { set({ bottles: Math.max(0, state.bottles - 1) }); });
+  $('#btlPlus').addEventListener('click', function () { set({ bottles: Math.min(60, state.bottles + 1) }); });
+  $('#tkWarn').addEventListener('click', function (e) { if (e.target.closest('button')) set({ guests: MIN_CONVIV }); });
+
+  function set(patch) { for (var k in patch) state[k] = patch[k]; render(); }
+
+  function summary() {
+    var parts = [state.occasion, state.guests + ' personnes'];
+    if (state.formule === 'exclu') {
+      parts.push('formule Exclusivité', state.dj ? 'avec DJ' : 'sans DJ', state.traiteur ? 'avec service traiteur' : 'sans service traiteur');
+    } else {
+      parts.push('formule Convivialité', 'menu ' + MENUS[state.menu].nom);
+      if (state.bottles) parts.push(state.bottles + (state.bottles > 1 ? ' bouteilles' : ' bouteille') + ' de champagne apportée' + (state.bottles > 1 ? 's' : ''));
+    }
+    return parts;
+  }
+
+  function render() {
+    var ex = state.formule === 'exclu', m = MENUS[state.menu];
+
+    /* onglets formules */
+    fTabs.forEach(function (b) { var on = b.dataset.formule === state.formule; b.setAttribute('aria-selected', on); b.tabIndex = on ? 0 : -1; });
+    $('#pan-exclu').hidden = !ex; $('#pan-conviv').hidden = ex;
+    $$('input[name=formule]').forEach(function (r) { r.checked = r.value === state.formule; });
+    $('#subExclu').hidden = !ex; $('#subConviv').hidden = ex;
+
+    /* carte */
+    mTabs.forEach(function (b) { var on = b.dataset.menu === state.menu; b.setAttribute('aria-selected', on); b.tabIndex = on ? 0 : -1; });
+    $$('input[name=menu]').forEach(function (r) { r.checked = r.value === state.menu; });
+    $('#boardPrice').textContent = (m.des ? 'dès ' : '') + m.prix + ' €';
+    $('#boardUnit').textContent = m.des ? 'par personne, devis sur demande' : 'TTC par personne, hors boissons';
+    $('#boardCourses').innerHTML = m.plats.map(function (p) { return '<div><dt>' + p[0] + '</dt><dd>' + p[1] + '</dd></div>'; }).join('');
+
+    /* invités */
+    var g = state.guests;
+    guests.value = g; guests.style.setProperty('--p', ((g - 10) / (MAX - 10) * 100) + '%');
+    guests.setAttribute('aria-valuetext', g + ' personnes');
+    $('#guestsOut').innerHTML = g + '<small>personnes</small>';
+    dots.forEach(function (d, i) { var on = (i + 1) * 5 <= g; d.className = on ? ((i + 1) * 5 > SEATED ? 'on up' : 'on') : ''; });
+    $('#roomNote').innerHTML = g <= SEATED
+      ? '<b>Tout le monde peut s\'asseoir.</b> La salle compte environ ' + SEATED + ' places assises.'
+      : '<b>Format debout ou cocktail.</b> Au-delà de ' + SEATED + ' invités environ, une partie de vos convives reste debout. Capacité maximale : environ ' + MAX + ' personnes.';
+    $('#btlOut').textContent = state.bottles;
+
+    /* ticket */
+    var lines = [['Occasion', state.occasion], ['Invités', g + ' personnes']], warn = '';
+    if (ex) {
+      lines.push(['Formule', 'Exclusivité'], ['Animation', state.dj ? 'DJ pro, tarif négocié' : 'Sans DJ'], ['Repas', state.traiteur ? 'Service traiteur' : 'Vous apportez le repas'], ['Droit de bouchon', 'Aucun']);
+      $('#tkLabel').textContent = 'Tarif'; $('#tkTotal').textContent = 'Sur devis'; $('#tkSmall').textContent = 'selon la date et vos options';
+    } else {
+      lines.push(['Formule', 'Convivialité'], [m.nom, g + ' × ' + (m.des ? 'dès ' : '') + euro(m.prix)]);
+      if (state.bottles) lines.push(['Droit de bouchon', state.bottles + ' × ' + euro(CORKAGE)]);
+      lines.push(['Animation', 'DJ de la maison']);
+      if (g < MIN_CONVIV) {
+        warn = 'La formule Convivialité démarre à ' + MIN_CONVIV + ' personnes. En dessous, appelez-nous pour voir ce qui est possible.<br><button type="button">Passer à ' + MIN_CONVIV + ' personnes</button>';
+        $('#tkLabel').textContent = 'Estimation'; $('#tkTotal').textContent = 'Sur devis'; $('#tkSmall').textContent = 'groupe de moins de ' + MIN_CONVIV + ' personnes';
+      } else {
+        $('#tkLabel').textContent = m.des ? 'À partir de' : 'Estimation';
+        $('#tkTotal').textContent = euro(g * m.prix + state.bottles * CORKAGE);
+        $('#tkSmall').textContent = 'TTC, hors boissons, à confirmer par devis';
+      }
+    }
+    $('#tkLines').innerHTML = lines.map(function (l) { return '<div><dt>' + l[0] + '</dt><dd>' + l[1] + '</dd></div>'; }).join('');
+    $('#tkWarn').innerHTML = warn; $('#tkWarn').hidden = !warn;
+    $('#recapText').textContent = summary().join(', ') + '.';
+  }
+
+  /* =====================================================================
+     VISITE 360 : l'iframe n'est chargée qu'à la demande
+     ===================================================================== */
+  if (!TOUR_URL) {
+    $('#visite').hidden = true;
+    $('#galerie').style.paddingTop = '';
+    var navTour = $('.nav a[href="#visite"]'); if (navTour) navTour.remove();
+    var heroTour = $('.hero-cta a[href="#visite"]'); if (heroTour) { heroTour.href = '#galerie'; heroTour.textContent = 'Voir les photos de la salle'; }
+  } else {
+    var alt = $('.tour-alt a'); if (alt) alt.href = TOUR_URL;
+  }
+  $('#tourGo').addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = TOUR_URL; f.title = 'Visite virtuelle à 360° de La Caravane'; f.allow = 'fullscreen; gyroscope; accelerometer'; f.allowFullscreen = true;
+    $('#tour').appendChild(f); $('#tourVeil').remove(); f.focus();
+  });
+
+  /* =====================================================================
+     GALERIE
+     ===================================================================== */
+  var strip = $('#strip'), box = $('#box'), cur = 0;
+  strip.innerHTML = GALLERY.map(function (p, i) {
+    return '<button class="pic" type="button" data-i="' + i + '" data-photo aria-label="Agrandir : ' + p[1].replace(/"/g, '&quot;') + '"><span class="ph"><img loading="lazy" decoding="async" src="' + PHOTOS + p[0] + '" alt=""></span><em>' + p[1] + '</em></button>';
+  }).join('');
+  function show(i) { cur = (i + GALLERY.length) % GALLERY.length; $('#boxImg').src = PHOTOS + GALLERY[cur][0]; $('#boxImg').alt = GALLERY[cur][1]; $('#boxCap').textContent = GALLERY[cur][1] + ' (' + (cur + 1) + ' sur ' + GALLERY.length + ')'; }
+  var moved = 0;
+  strip.addEventListener('click', function (e) { var b = e.target.closest('.pic'); if (!b || moved > 6) return; show(+b.dataset.i); box.showModal(); });
+  $('#boxPrev').addEventListener('click', function () { show(cur - 1); });
+  $('#boxNext').addEventListener('click', function () { show(cur + 1); });
+  $('#boxClose').addEventListener('click', function () { box.close(); });
+  box.addEventListener('click', function (e) { if (e.target === box || e.target.classList.contains('box-in')) box.close(); });
+  box.addEventListener('keydown', function (e) { if (e.key === 'ArrowLeft') show(cur - 1); if (e.key === 'ArrowRight') show(cur + 1); });
+  var sx = null;
+  box.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; }, { passive: true });
+  box.addEventListener('touchend', function (e) { if (sx === null) return; var d = e.changedTouches[0].clientX - sx; if (Math.abs(d) > 50) show(cur + (d < 0 ? 1 : -1)); sx = null; });
+  function step(dir) { strip.scrollBy({ left: dir * Math.min(strip.clientWidth * 0.8, 640), behavior: calm ? 'auto' : 'smooth' }); }
+  $('#galPrev').addEventListener('click', function () { step(-1); });
+  $('#galNext').addEventListener('click', function () { step(1); });
+  var drag = null;
+  strip.addEventListener('pointerdown', function (e) { if (e.pointerType !== 'mouse') return; drag = { x: e.clientX, s: strip.scrollLeft }; moved = 0; });
+  window.addEventListener('pointermove', function (e) { if (!drag) return; var d = e.clientX - drag.x; moved = Math.max(moved, Math.abs(d)); if (moved > 6) { strip.classList.add('is-drag'); strip.scrollLeft = drag.s - d; } });
+  window.addEventListener('pointerup', function () { if (!drag) return; drag = null; strip.classList.remove('is-drag'); setTimeout(function () { moved = 0; }, 0); });
+
+  /* =====================================================================
+     DEVIS
+     ===================================================================== */
+  var form = $('#form'), status = $('#status');
+  var today = new Date(); $('#date').min = new Date(today.getTime() - today.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+  function profil() { return ($('input[name=profil]:checked', form) || {}).value || ''; }
+  form.addEventListener('change', function (e) {
+    if (e.target.name !== 'profil') return;
+    var need = profil() !== 'Un particulier';
+    $('#orgField').hidden = !need; $('#org').required = need;
+    if (!need) fail('org', '');
+  });
+  function fail(id, msg) { var i = $('#' + id); $('#e-' + id).textContent = msg; if (msg) i.setAttribute('aria-invalid', 'true'); else i.removeAttribute('aria-invalid'); return !msg; }
+  var RULES = {
+    prenom: function (v) { return v ? '' : 'Indiquez votre prénom.'; },
+    nom: function (v) { return v ? '' : 'Indiquez votre nom.'; },
+    org: function (v) { return $('#org').required && !v ? 'Indiquez le nom de votre entreprise ou organisation.' : ''; },
+    email: function (v) { return !v ? 'Indiquez votre e-mail pour recevoir le devis.' : /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) ? '' : 'Cet e-mail semble incomplet. Exemple : prenom@exemple.fr'; },
+    tel: function (v) { return !v ? 'Indiquez un numéro où vous joindre.' : v.replace(/\D/g, '').length >= 9 ? '' : 'Ce numéro semble trop court. Exemple : 06 12 34 56 78'; },
+    date: function (v) { return v && v < $('#date').min ? 'Choisissez une date à venir.' : ''; },
+    msg: function (v) { return v ? '' : 'Décrivez votre projet en une phrase ou deux.'; }
+  };
+  /* L'erreur disparaît pendant la saisie (pas au blur : le décalage de mise en page ferait rater le clic suivant) */
+  Object.keys(RULES).forEach(function (id) { $('#' + id).addEventListener('input', function () { if ($('#' + id).hasAttribute('aria-invalid') && !RULES[id]($('#' + id).value.trim())) fail(id, ''); }); });
+  $('#ok').addEventListener('change', function () { if ($('#ok').checked) fail('ok', ''); });
+
+  function body() {
+    var d = $('#date').value, dateFr = d ? new Date(d + 'T12:00:00').toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) : 'à définir';
+    var L = ['Bonjour,', '', 'Je souhaite recevoir un devis pour La Caravane.', '',
+      'Nom : ' + $('#prenom').value.trim() + ' ' + $('#nom').value.trim(),
+      'Profil : ' + profil()];
+    if ($('#org').value.trim()) L.push('Entreprise / organisation : ' + $('#org').value.trim());
+    L.push('E-mail : ' + $('#email').value.trim(), 'Téléphone : ' + $('#tel').value.trim(), '', 'Date souhaitée : ' + dateFr, 'Ma soirée : ' + summary().join(', '), '', 'Précisions :', $('#msg').value.trim(), '', 'Merci,', $('#prenom').value.trim() + ' ' + $('#nom').value.trim());
+    return { subject: 'Demande de devis, ' + state.occasion + (d ? ', ' + dateFr : ''), text: L.join('\n') };
+  }
+  function say(html) { status.innerHTML = html; status.hidden = false; status.scrollIntoView({ block: 'nearest', behavior: calm ? 'auto' : 'smooth' }); }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault(); status.hidden = true;
+    var firstBad = null;
+    Object.keys(RULES).forEach(function (id) { if (!fail(id, RULES[id]($('#' + id).value.trim())) && !firstBad) firstBad = $('#' + id); });
+    if (!fail('ok', $('#ok').checked ? '' : 'Cochez cette case pour que nous puissions vous répondre.') && !firstBad) firstBad = $('#ok');
+    if (firstBad) { firstBad.focus(); return; }
+    var m = body();
+    if (FORM_ENDPOINT) {
+      var btn = $('#send'); btn.disabled = true; btn.textContent = 'Envoi en cours…';
+      fetch(FORM_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ subject: m.subject, message: m.text, email: $('#email').value.trim(), soiree: state }) })
+        .then(function (r) { if (!r.ok) throw 0; say('Demande envoyée. Nous vous répondons au plus vite avec votre devis.'); form.reset(); $('#orgField').hidden = true; })
+        .catch(function () { say('La demande n\'est pas partie. Réessayez, ou appelez-nous au 03 26 07 59 10.'); })
+        .then(function () { btn.disabled = false; btn.textContent = 'Envoyer ma demande'; });
+    } else {
+      window.location.href = 'mailto:' + CONTACT_EMAIL + '?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.text);
+      say('Votre e-mail est prêt dans votre messagerie : il reste à cliquer sur Envoyer. Rien ne s\'ouvre ? <button type="button" id="copy">Copier le message</button>');
+      $('#copy').addEventListener('click', function () {
+        var done = function () { $('#copy').textContent = 'Message copié'; };
+        if (navigator.clipboard) navigator.clipboard.writeText('À : ' + CONTACT_EMAIL + '\nObjet : ' + m.subject + '\n\n' + m.text).then(done, function () {});
+      });
+    }
+  });
+
+  render(); onScroll();
+})();
+</script>
+</body>
+</html>
